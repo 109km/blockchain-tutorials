@@ -1,0 +1,10 @@
+.dfx/
+.DS_Store
+.idea/
+.vscode/
+build/
+canisters/
+crc8.pyc
+node_modules/
+dist/
+nohup.out

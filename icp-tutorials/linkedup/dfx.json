@@ -1,0 +1,34 @@
+{
+  "canisters": {
+    "connectd": {
+      "main": "src/connectd/main.mo"
+    },
+    "linkedup": {
+      "main": "src/linkedup/main.mo"
+    },
+    "linkedup_assets": {
+      "dependencies": ["linkedup"],
+      "frontend": {
+        "entrypoint": "src/linkedup/public/main.js"
+      },
+      "type": "assets",
+      "source": ["src/linkedup/public", "dist/linkedup_assets"]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "tungsten": {
+      "providers": ["https://gw.dfinity.network"],
+      "type": "persistent"
+    },
+    "local": {
+      "bind": "0.0.0.0:8000",
+      "type": "ephemeral"
+    }
+  },
+  "dfx": "0.7.0-beta.8"
+}
