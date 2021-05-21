@@ -1,7 +1,7 @@
 App = {
   web3Provider: null,
   contracts: {},
-
+  owner: '',
   init: async function () {
     // Load pets.
     $.getJSON('../pets.json', function (data) {
@@ -46,7 +46,9 @@ App = {
       )
     }
     web3 = new Web3(App.web3Provider)
-
+    web3.eth.getAccounts(function (e, accounts) {
+      App.owner = accounts[0]
+    })
     return App.initContract()
   },
 
@@ -76,17 +78,17 @@ App = {
     App.contracts.Adoption.deployed()
       .then(function (instance) {
         adoptionInstance = instance
-
         return adoptionInstance.getAdopters.call()
       })
       .then(function (adopters) {
         for (i = 0; i < adopters.length; i++) {
           if (adopters[i] !== '0x0000000000000000000000000000000000000000') {
-            $('.panel-pet')
-              .eq(i)
-              .find('button')
-              .text('Success')
-              .attr('disabled', true)
+            var btn = $('.panel-pet').eq(i).find('button')
+            btn.text('Success').attr('disabled', true)
+            // Your adopt
+            if (App.owner === adopters[i]) {
+              btn.text('You adopted')
+            }
           }
         }
       })
