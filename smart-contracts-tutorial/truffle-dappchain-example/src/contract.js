@@ -1,13 +1,11 @@
-import {
-  Client, LocalAddress, CryptoUtils, LoomProvider
-} from 'loom-js'
+import { Client, LocalAddress, CryptoUtils, LoomProvider } from 'loom-js'
 import BN from 'bn.js'
 import Web3 from 'web3'
 import SimpleStore from './contracts/SimpleStore.json'
 
 export default class Contract {
   async loadContract() {
-    this.onEvent = null
+    this.eventTriggers = {}
     this._createClient()
     this._createCurrentUserAddress()
     this._createWebInstance()
@@ -28,14 +26,16 @@ export default class Contract {
 
     this.client = new Client(networkId, writeUrl, readUrl)
 
-    this.client.on('error', msg => {
+    this.client.on('error', (msg) => {
       console.error('Error on connect to client', msg)
       console.warn('Please verify if loom command is running')
     })
   }
 
   _createCurrentUserAddress() {
-    this.currentUserAddress = LocalAddress.fromPublicKey(this.publicKey).toString()
+    this.currentUserAddress = LocalAddress.fromPublicKey(
+      this.publicKey,
+    ).toString()
   }
 
   _createWebInstance() {
@@ -49,46 +49,66 @@ export default class Contract {
       throw Error('Contract not deployed on DAppChain')
     }
 
+    // Instantiate this contract on eth by ABI of `SimpleStore`
     const ABI = SimpleStore.abi
-    this.simpleStoreInstance = new this.web3.eth.Contract(ABI, this.currentNetwork.address, {
-      from: this.currentUserAddress
-    })
+    this.simpleStoreInstance = new this.web3.eth.Contract(
+      ABI,
+      this.currentNetwork.address,
+      {
+        from: this.currentUserAddress,
+      },
+    )
 
-    this.simpleStoreInstance.events.NewValueSet({ filter: { _value: 10 }}, (err, event) => {
-      if (err) console.error('Error on event', err)
-      else {
-        if (this.onEvent) {
-          this.onEvent(event.returnValues)
-        }
-      }
-    })
+    console.log(this.currentNetwork)
 
-    this.simpleStoreInstance.events.NewValueSetAgain({ filter: { _value: 47 }}, (err, event) => {
-      if (err) console.error('Error on event', err)
-      else {
-        setTimeout(() => alert("Loooomy help me :)"))
-        if (this.onEvent) {
-          this.onEvent(event.returnValues)
+    this.simpleStoreInstance.events.NewValueSet(
+      { filter: { _value: 10 } },
+      (err, evt) => {
+        if (err) console.error('Error on event', err)
+        else {
+          if (this.eventTriggers[evt.event]) {
+            console.log(evt)
+            this.eventTriggers[evt.event](evt.returnValues)
+          }
         }
-      }
-    })
+      },
+    )
+
+    this.simpleStoreInstance.events.NewValueSetAgain(
+      { filter: { _value: 47 } },
+      (err, evt) => {
+        if (err) console.error('Error on event', err)
+        else {
+          setTimeout(() => alert('Loooomy help me :)'))
+          if (this.eventTriggers[evt.event]) {
+            console.log(evt)
+            this.eventTriggers[evt.event](evt.returnValues)
+          }
+        }
+      },
+    )
   }
 
-  addEventListener(fn) {
-    this.onEvent = fn
+  addEventListener(eventName, fn) {
+    if (!eventName || typeof eventName !== 'string')
+      throw new TypeError('`eventName` must be a string.')
+
+    if (!fn || typeof fn !== 'function')
+      throw new TypeError('`eventCallback must be a function.`')
+
+    this.eventTriggers[eventName] = fn
   }
 
   _getCurrentNetwork() {
-
     if (process.env.NETWORK == 'extdev') {
       return '9545242630824'
-    }
-    else {
+    } else {
       const web3 = new Web3()
-      const chainIdHash = web3.utils.soliditySha3(this.client.chainId)
+      const chainIdHash = web3.utils
+        .soliditySha3(this.client.chainId)
         .slice(2) // Removes 0x
         .slice(0, 13) // Produces safe Number less than 9007199254740991
-        const chainId =  new BN(chainIdHash).toString()
+      const chainId = new BN(chainIdHash).toString()
       return chainId
     }
   }
@@ -97,18 +117,18 @@ export default class Contract {
     // Just a small test with Loomy
     if (value == 47) {
       return await this.simpleStoreInstance.methods.setAgain(value).send({
-        from: this.currentUserAddress
+        from: this.currentUserAddress,
       })
     }
 
     return await this.simpleStoreInstance.methods.set(value).send({
-      from: this.currentUserAddress
+      from: this.currentUserAddress,
     })
   }
 
   async getValue() {
     return await this.simpleStoreInstance.methods.get().call({
-      from: this.currentUserAddress
+      from: this.currentUserAddress,
     })
   }
 }
