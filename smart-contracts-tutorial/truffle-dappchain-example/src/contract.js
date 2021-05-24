@@ -59,8 +59,6 @@ export default class Contract {
       },
     )
 
-    console.log(this.currentNetwork)
-
     this.simpleStoreInstance.events.NewValueSet(
       { filter: { _value: 10 } },
       (err, evt) => {

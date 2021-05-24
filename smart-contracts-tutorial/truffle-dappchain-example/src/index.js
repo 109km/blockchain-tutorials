@@ -17,6 +17,8 @@ const Index = class Index extends React.Component {
       isSending: false,
       tx: null,
       tries: 0,
+      balance: 0,
+      address: '',
     }
   }
 
@@ -48,6 +50,14 @@ const Index = class Index extends React.Component {
       console.error('Ops, some error happen:', err)
     }
     this.setState({ isSending: false })
+  }
+
+  async getValue() {
+    const val = await this.contract.getValue()
+    this.setState({
+      balance: val[0],
+      address: val[1],
+    })
   }
 
   render() {
@@ -82,7 +92,20 @@ const Index = class Index extends React.Component {
           >
             {this.state.isSending ? 'Sending' : 'Confirm'}
           </button>
+
+          <button
+            type="button"
+            className="btn"
+            style={{ marginLeft: 10 }}
+            onClick={() => this.getValue()}
+          >
+            Get balance
+          </button>
         </form>
+        <div className="alert alert-warning">
+          Balance is {this.state.balance}, contract address is
+          {this.state.address}
+        </div>
         <div className="alert alert-success">
           Value set is {this.state.value} (this value only updates if values is
           10 or ...)
