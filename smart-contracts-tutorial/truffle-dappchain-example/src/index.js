@@ -60,6 +60,14 @@ const Index = class Index extends React.Component {
     })
   }
 
+  async startMint() {
+    const res = await this.contract.coinInstance.methods
+      .mintToGateway(50)
+      .send({ from: this.contract.currentUserAddress })
+
+    console.log(res)
+  }
+
   render() {
     const loomyAlert = (
       <div className="alert alert-warning">
@@ -92,19 +100,32 @@ const Index = class Index extends React.Component {
           >
             {this.state.isSending ? 'Sending' : 'Confirm'}
           </button>
+        </form>
 
+        <div className="alert alert-success">
           <button
             type="button"
             className="btn"
-            style={{ marginLeft: 10 }}
-            onClick={() => this.getValue()}
+            onClick={() => this.startMint()}
           >
-            Get balance
+            Mint
           </button>
-        </form>
+        </div>
         <div className="alert alert-warning">
-          Balance is {this.state.balance}, contract address is
-          {this.state.address}
+          <p>
+            <button
+              type="button"
+              className="btn"
+              style={{ marginLeft: 10 }}
+              onClick={() => this.getValue()}
+            >
+              Get balance
+            </button>
+          </p>
+          <p>
+            Balance is {this.state.balance}, contract address is
+            {this.state.address}
+          </p>
         </div>
         <div className="alert alert-success">
           Value set is {this.state.value} (this value only updates if values is

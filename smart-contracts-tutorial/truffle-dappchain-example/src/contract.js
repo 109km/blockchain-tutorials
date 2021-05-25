@@ -2,7 +2,7 @@ import { Client, LocalAddress, CryptoUtils, LoomProvider } from 'loom-js'
 import BN from 'bn.js'
 import Web3 from 'web3'
 import SimpleStore from './contracts/SimpleStore.json'
-
+import MyCoin from './contracts/MyCoin.json'
 export default class Contract {
   async loadContract() {
     this.eventTriggers = {}
@@ -10,6 +10,7 @@ export default class Contract {
     this._createCurrentUserAddress()
     this._createWebInstance()
     await this._createContractInstance()
+    await this._createCoinInstance()
   }
 
   _createClient() {
@@ -85,6 +86,20 @@ export default class Contract {
         }
       },
     )
+  }
+
+  async _createCoinInstance() {
+    if (!this.currentNetwork) {
+      throw Error('Contract not deployed on DAppChain')
+    }
+    const ABI = MyCoin.abi
+    this.coinInstance = new this.web3.eth.Contract(
+      ABI,
+      // Sender address must be the same as gateway address,
+      // so treat this user as `gateway` to test
+      this.currentUserAddress,
+    )
+    console.log(this.coinInstance)
   }
 
   addEventListener(eventName, fn) {
