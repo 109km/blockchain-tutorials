@@ -96,6 +96,7 @@ actor class PaymentChannelClass(Token : Types.Token) = PC {
                 if (tx.amount > pc.amountA + pc.amountB) return #err(#invalidTx);
 
                 if (tx.sender == pc.userA) {
+                    if (tx.amount > pc.amountA) return #err(#insufficientBalance)
                     paymentChannels.put(key, {
                         userA = pc.userA;
                         userB = pc.userB;
@@ -106,11 +107,12 @@ actor class PaymentChannelClass(Token : Types.Token) = PC {
                         ttl = Time.now() + (3600 * 1000_000);
                     });
                 } else {
+                    if (tx.amount > pc.amountB) return #err(#insufficientBalance)
                     paymentChannels.put(key, {
                         userA = pc.userA;
                         userB = pc.userB ;
-                        amountA = pc.amountA - tx.amount;
-                        amountB = pc.amountB + tx.amount;
+                        amountA = pc.amountA + tx.amount;
+                        amountB = pc.amountB - tx.amount;
                         closing = true;
                         closingUser = ?msg.caller;
                         ttl = Time.now() + (3600 * 1000_000);
