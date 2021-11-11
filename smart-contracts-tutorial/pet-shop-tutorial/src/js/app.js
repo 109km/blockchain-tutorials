@@ -81,6 +81,7 @@ App = {
         return adoptionInstance.getAdopters.call()
       })
       .then(function (adopters) {
+        console.log('Adopters', adopters)
         for (i = 0; i < adopters.length; i++) {
           if (adopters[i] !== '0x0000000000000000000000000000000000000000') {
             var btn = $('.panel-pet').eq(i).find('button')

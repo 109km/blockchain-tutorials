@@ -71,7 +71,11 @@ contract Ballot {
             !voters[voter].voted,
             "The voter already voted."
         );
-        require(voters[voter].weight == 0);
+        require(
+            msg.sender != voters[voter].delegate,
+            "You can't give right to yourself."
+        );
+        require(voters[voter].weight == 0,"The voter's weight is 0.");
         voters[voter].weight = 1;
     }
 
