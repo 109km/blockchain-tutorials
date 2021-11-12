@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.22 <0.9.0;
+pragma solidity >=0.8.4 <0.9.0;
 
 contract SimpleAuction {
     // Parameters of the auction. Times are either
@@ -48,6 +48,11 @@ contract SimpleAuction {
     ) {
         beneficiary = beneficiaryAddress;
         auctionEndTime = block.timestamp + biddingTime;
+        highestBid = 0;
+    }
+
+    function getHighestBid() view external returns (uint) {
+        return highestBid;
     }
 
     /// Bid on the auction with the value sent
