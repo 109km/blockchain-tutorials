@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.4 <0.9.0;
-import "hardhat/console.sol";
 
 contract SimpleAuction {
     // Parameters of the auction. Times are either
@@ -61,7 +60,7 @@ contract SimpleAuction {
     /// The value will only be refunded if the
     /// auction is not won.
     function bid() external payable {
-        // No arguments are necessary, all
+        // No arguments arie necessary, all
         // information is already part of
         // the transaction. The keyword payable
         // is required for the function to
@@ -77,8 +76,6 @@ contract SimpleAuction {
         // will revert all changes in this
         // function execution including
         // it having received the money).
-        console.log("highestBid",highestBid);
-        console.log("msg.value",msg.value);
         if (msg.value <= highestBid)
             revert BidNotHighEnough(highestBid);
 
