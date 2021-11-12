@@ -8,7 +8,6 @@ module.exports = async function (deployer) {
     '0x29713b2938526A53c1f0c2db39EE7E1D1A9F36c2',
     { overwrite: true },
   )
-
   const a = await SimpleAuction.deployed()
   await deployer.deploy(AuctionBid, a.address, { overwrite: false })
 }
