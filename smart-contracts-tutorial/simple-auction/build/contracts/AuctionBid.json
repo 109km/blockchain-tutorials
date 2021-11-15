@@ -20,9 +20,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_address\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"bid\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"bid()\":{\"notice\":\"Bid on the auction.\"},\"constructor\":{\"notice\":\"Create a simple auction with `biddingTime` seconds bidding time on behalf of the beneficiary address `beneficiaryAddress`.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/AuctionBid.sol\":\"AuctionBid\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/AuctionBid.sol\":{\"keccak256\":\"0x7db17ad56e4c25e3b442803ab313a104e3ad3c880f67329796f7994e371c58e7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://07abe184e678c87f34764cae544fc6a3ec77bb0978a1db9e464d43f5cf45cf36\",\"dweb:/ipfs/QmUA2HR2zt396FEPPuptdQrxqkykfz9Fdci44KwDQgg1b1\"]},\"project:/contracts/SimpleAuction.sol\":{\"keccak256\":\"0x70a64f67e1a5b2dada8c550ff6779bd4aca199c2b07229b40480bc1c218188c2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f8f7c428e1a4f3beef04f1cab3bf94647ea1921320b7c8ee57b4791c9668c4c3\",\"dweb:/ipfs/QmYCZRMVQUhhL29fcJK7Qpi3B8ZT5JWpkj3tS8L72eM1n2\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506040516102443803806102448339818101604052810190610032919061011c565b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050610149565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006100e9826100be565b9050919050565b6100f9816100de565b811461010457600080fd5b50565b600081519050610116816100f0565b92915050565b600060208284031215610132576101316100b9565b5b600061014084828501610107565b91505092915050565b60ed806101576000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80631998aeef14602d575b600080fd5b60336035565b005b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631998aeef60016040518263ffffffff1660e01b81526004016000604051808303818588803b158015609d57600080fd5b505af115801560b0573d6000803e3d6000fd5b505050505056fea26469706673582212208bbc4fb85325126c36b5398be8758bffac900ef11028a29676aabbe2f6ad5a9164736f6c634300080a0033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80631998aeef14602d575b600080fd5b60336035565b005b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631998aeef60016040518263ffffffff1660e01b81526004016000604051808303818588803b158015609d57600080fd5b505af115801560b0573d6000803e3d6000fd5b505050505056fea26469706673582212208bbc4fb85325126c36b5398be8758bffac900ef11028a29676aabbe2f6ad5a9164736f6c634300080a0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_address\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"bid\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"bid()\":{\"notice\":\"Bid on the auction.\"},\"constructor\":{\"notice\":\"Create a simple auction with `biddingTime` seconds bidding time on behalf of the beneficiary address `beneficiaryAddress`.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/AuctionBid.sol\":\"AuctionBid\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/AuctionBid.sol\":{\"keccak256\":\"0xd55a6d8380ce385124b4cb5f3fe597f1dbce0b1406e5e57a45b39f4cd2e34a00\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b5aa3fddf127bfa2f989a4188ef4c3942c7cf209ddf5a3137a7fac190ad52658\",\"dweb:/ipfs/QmWu777xGKBg1ZEgAy7yabhc68z42HHxLa4yfVndhgP4tt\"]},\"project:/contracts/SimpleAuction.sol\":{\"keccak256\":\"0x70a64f67e1a5b2dada8c550ff6779bd4aca199c2b07229b40480bc1c218188c2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f8f7c428e1a4f3beef04f1cab3bf94647ea1921320b7c8ee57b4791c9668c4c3\",\"dweb:/ipfs/QmYCZRMVQUhhL29fcJK7Qpi3B8ZT5JWpkj3tS8L72eM1n2\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50604051610201380380610201833981810160405281019061003291906100db565b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050610108565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006100a88261007d565b9050919050565b6100b88161009d565b81146100c357600080fd5b50565b6000815190506100d5816100af565b92915050565b6000602082840312156100f1576100f0610078565b5b60006100ff848285016100c6565b91505092915050565b60eb806101166000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80631998aeef14602d575b600080fd5b60336035565b005b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631998aeef6040518163ffffffff1660e01b8152600401600060405180830381600087803b158015609c57600080fd5b505af115801560af573d6000803e3d6000fd5b5050505056fea2646970667358221220939a00f97060f02d12e4f853e846a811e4e54e51ad1626d8fc85933bfbcd964064736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80631998aeef14602d575b600080fd5b60336035565b005b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631998aeef6040518163ffffffff1660e01b8152600401600060405180830381600087803b158015609c57600080fd5b505af115801560af573d6000803e3d6000fd5b5050505056fea2646970667358221220939a00f97060f02d12e4f853e846a811e4e54e51ad1626d8fc85933bfbcd964064736f6c634300080a0033",
   "immutableReferences": {},
   "generatedSources": [
     {
@@ -632,21 +632,21 @@
     }
   ],
   "deployedGeneratedSources": [],
-  "sourceMap": "96:495:0:-:0;;;341:145;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;420:8;395:22;;:33;;;;;;;;;;;;;;;;;;470:8;438:15;;:41;;;;;;;;;;;;;;;;;;341:145;96:495;;88:117:2;197:1;194;187:12;334:126;371:7;411:42;404:5;400:54;389:65;;334:126;;;:::o;466:96::-;503:7;532:24;550:5;532:24;:::i;:::-;521:35;;466:96;;;:::o;568:122::-;641:24;659:5;641:24;:::i;:::-;634:5;631:35;621:63;;680:1;677;670:12;621:63;568:122;:::o;696:143::-;753:5;784:6;778:13;769:22;;800:33;827:5;800:33;:::i;:::-;696:143;;;;:::o;845:351::-;915:6;964:2;952:9;943:7;939:23;935:32;932:119;;;970:79;;:::i;:::-;932:119;1090:1;1115:64;1171:7;1162:6;1151:9;1147:22;1115:64;:::i;:::-;1105:74;;1061:128;845:351;;;;:::o;96:495:0:-;;;;;;;",
-  "deployedSourceMap": "96:495:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;520:69;;;:::i;:::-;;;552:15;;;;;;;;;;:19;;;578:1;552:30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;520:69::o",
-  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.8.4 <0.9.0;\n\nimport \"./SimpleAuction.sol\";\n\ncontract AuctionBid {\n\n    SimpleAuction auctionInstance;\n    address auctionContractAddress;\n    /// Create a simple auction with `biddingTime`\n    /// seconds bidding time on behalf of the\n    /// beneficiary address `beneficiaryAddress`.\n    constructor(\n        address _address\n    ) {\n        auctionContractAddress = _address;\n        auctionInstance = SimpleAuction(_address);\n    }\n\n    /// Bid on the auction.\n    function bid() public {\n        auctionInstance.bid{value:1}();\n    }\n}",
+  "sourceMap": "96:407:0:-:0;;;305:102;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;391:8;359:15;;:41;;;;;;;;;;;;;;;;;;305:102;96:407;;88:117:2;197:1;194;187:12;334:126;371:7;411:42;404:5;400:54;389:65;;334:126;;;:::o;466:96::-;503:7;532:24;550:5;532:24;:::i;:::-;521:35;;466:96;;;:::o;568:122::-;641:24;659:5;641:24;:::i;:::-;634:5;631:35;621:63;;680:1;677;670:12;621:63;568:122;:::o;696:143::-;753:5;784:6;778:13;769:22;;800:33;827:5;800:33;:::i;:::-;696:143;;;;:::o;845:351::-;915:6;964:2;952:9;943:7;939:23;935:32;932:119;;;970:79;;:::i;:::-;932:119;1090:1;1115:64;1171:7;1162:6;1151:9;1147:22;1115:64;:::i;:::-;1105:74;;1061:128;845:351;;;;:::o;96:407:0:-;;;;;;;",
+  "deployedSourceMap": "96:407:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;441:60;;;:::i;:::-;;;473:15;;;;;;;;;;:19;;;:21;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;441:60::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.8.4 <0.9.0;\n\nimport \"./SimpleAuction.sol\";\n\ncontract AuctionBid {\n\n    SimpleAuction auctionInstance;\n    /// Create a simple auction with `biddingTime`\n    /// seconds bidding time on behalf of the\n    /// beneficiary address `beneficiaryAddress`.\n    constructor(\n        address _address\n    ) {\n        auctionInstance = SimpleAuction(_address);\n    }\n\n    /// Bid on the auction.\n    function bid() public {\n        auctionInstance.bid();\n    }\n}",
   "sourcePath": "/Users/xinhengs/Develop/BlockChain/smart-contracts-tutorial/simple-auction/contracts/AuctionBid.sol",
   "ast": {
     "absolutePath": "project:/contracts/AuctionBid.sol",
     "exportedSymbols": {
       "AuctionBid": [
-        37
+        29
       ],
       "SimpleAuction": [
-        243
+        235
       ]
     },
-    "id": 38,
+    "id": 30,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
@@ -670,8 +670,8 @@
         "id": 2,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 38,
-        "sourceUnit": 244,
+        "scope": 30,
+        "sourceUnit": 236,
         "src": "65:29:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -683,9 +683,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 37,
+        "id": 29,
         "linearizedBaseContracts": [
-          37
+          29
         ],
         "name": "AuctionBid",
         "nameLocation": "105:10:0",
@@ -698,12 +698,12 @@
             "name": "auctionInstance",
             "nameLocation": "137:15:0",
             "nodeType": "VariableDeclaration",
-            "scope": 37,
+            "scope": 29,
             "src": "123:29:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_SimpleAuction_$243",
+              "typeIdentifier": "t_contract$_SimpleAuction_$235",
               "typeString": "contract SimpleAuction"
             },
             "typeName": {
@@ -713,51 +713,23 @@
                 "id": 3,
                 "name": "SimpleAuction",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 243,
+                "referencedDeclaration": 235,
                 "src": "123:13:0"
               },
-              "referencedDeclaration": 243,
+              "referencedDeclaration": 235,
               "src": "123:13:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SimpleAuction_$243",
+                "typeIdentifier": "t_contract$_SimpleAuction_$235",
                 "typeString": "contract SimpleAuction"
               }
             },
             "visibility": "internal"
           },
           {
-            "constant": false,
-            "id": 7,
-            "mutability": "mutable",
-            "name": "auctionContractAddress",
-            "nameLocation": "166:22:0",
-            "nodeType": "VariableDeclaration",
-            "scope": 37,
-            "src": "158:30:0",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_address",
-              "typeString": "address"
-            },
-            "typeName": {
-              "id": 6,
-              "name": "address",
-              "nodeType": "ElementaryTypeName",
-              "src": "158:7:0",
-              "stateMutability": "nonpayable",
-              "typeDescriptions": {
-                "typeIdentifier": "t_address",
-                "typeString": "address"
-              }
-            },
-            "visibility": "internal"
-          },
-          {
             "body": {
-              "id": 23,
+              "id": 17,
               "nodeType": "Block",
-              "src": "385:101:0",
+              "src": "349:58:0",
               "statements": [
                 {
                   "expression": {
@@ -767,57 +739,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 13,
-                      "name": "auctionContractAddress",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 7,
-                      "src": "395:22:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "=",
-                    "rightHandSide": {
-                      "id": 14,
-                      "name": "_address",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 10,
-                      "src": "420:8:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
-                    },
-                    "src": "395:33:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "id": 16,
-                  "nodeType": "ExpressionStatement",
-                  "src": "395:33:0"
-                },
-                {
-                  "expression": {
-                    "id": 21,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "id": 17,
+                      "id": 11,
                       "name": "auctionInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 5,
-                      "src": "438:15:0",
+                      "src": "359:15:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_SimpleAuction_$243",
+                        "typeIdentifier": "t_contract$_SimpleAuction_$235",
                         "typeString": "contract SimpleAuction"
                       }
                     },
@@ -826,12 +755,12 @@
                     "rightHandSide": {
                       "arguments": [
                         {
-                          "id": 19,
+                          "id": 13,
                           "name": "_address",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 10,
-                          "src": "470:8:0",
+                          "referencedDeclaration": 8,
+                          "src": "391:8:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -845,18 +774,18 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 18,
+                        "id": 12,
                         "name": "SimpleAuction",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 243,
-                        "src": "456:13:0",
+                        "referencedDeclaration": 235,
+                        "src": "377:13:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_SimpleAuction_$243_$",
+                          "typeIdentifier": "t_type$_t_contract$_SimpleAuction_$235_$",
                           "typeString": "type(contract SimpleAuction)"
                         }
                       },
-                      "id": 20,
+                      "id": 14,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -864,32 +793,32 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "456:23:0",
+                      "src": "377:23:0",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_SimpleAuction_$243",
+                        "typeIdentifier": "t_contract$_SimpleAuction_$235",
                         "typeString": "contract SimpleAuction"
                       }
                     },
-                    "src": "438:41:0",
+                    "src": "359:41:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_SimpleAuction_$243",
+                      "typeIdentifier": "t_contract$_SimpleAuction_$235",
                       "typeString": "contract SimpleAuction"
                     }
                   },
-                  "id": 22,
+                  "id": 16,
                   "nodeType": "ExpressionStatement",
-                  "src": "438:41:0"
+                  "src": "359:41:0"
                 }
               ]
             },
             "documentation": {
-              "id": 8,
+              "id": 6,
               "nodeType": "StructuredDocumentation",
-              "src": "194:142:0",
+              "src": "158:142:0",
               "text": "Create a simple auction with `biddingTime`\n seconds bidding time on behalf of the\n beneficiary address `beneficiaryAddress`."
             },
-            "id": 24,
+            "id": 18,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -897,18 +826,18 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 11,
+              "id": 9,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 10,
+                  "id": 8,
                   "mutability": "mutable",
                   "name": "_address",
-                  "nameLocation": "370:8:0",
+                  "nameLocation": "334:8:0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 24,
-                  "src": "362:16:0",
+                  "scope": 18,
+                  "src": "326:16:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -916,10 +845,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 9,
+                    "id": 7,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "362:7:0",
+                    "src": "326:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -929,25 +858,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "352:32:0"
+              "src": "316:32:0"
             },
             "returnParameters": {
-              "id": 12,
+              "id": 10,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "385:0:0"
+              "src": "349:0:0"
             },
-            "scope": 37,
-            "src": "341:145:0",
+            "scope": 29,
+            "src": "305:102:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 35,
+              "id": 27,
               "nodeType": "Block",
-              "src": "542:47:0",
+              "src": "463:38:0",
               "statements": [
                 {
                   "expression": {
@@ -955,67 +884,32 @@
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "argumentTypes": [],
-                        "expression": {
-                          "id": 28,
-                          "name": "auctionInstance",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 5,
-                          "src": "552:15:0",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_SimpleAuction_$243",
-                            "typeString": "contract SimpleAuction"
-                          }
-                        },
-                        "id": 30,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "memberName": "bid",
-                        "nodeType": "MemberAccess",
-                        "referencedDeclaration": 161,
-                        "src": "552:19:0",
+                        "id": 22,
+                        "name": "auctionInstance",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 5,
+                        "src": "473:15:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_external_payable$__$returns$__$",
-                          "typeString": "function () payable external"
+                          "typeIdentifier": "t_contract$_SimpleAuction_$235",
+                          "typeString": "contract SimpleAuction"
                         }
                       },
-                      "id": 32,
+                      "id": 24,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "names": [
-                        "value"
-                      ],
-                      "nodeType": "FunctionCallOptions",
-                      "options": [
-                        {
-                          "hexValue": "31",
-                          "id": 31,
-                          "isConstant": false,
-                          "isLValue": false,
-                          "isPure": true,
-                          "kind": "number",
-                          "lValueRequested": false,
-                          "nodeType": "Literal",
-                          "src": "578:1:0",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_rational_1_by_1",
-                            "typeString": "int_const 1"
-                          },
-                          "value": "1"
-                        }
-                      ],
-                      "src": "552:28:0",
+                      "memberName": "bid",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 153,
+                      "src": "473:19:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_payable$__$returns$__$value",
+                        "typeIdentifier": "t_function_external_payable$__$returns$__$",
                         "typeString": "function () payable external"
                       }
                     },
-                    "id": 33,
+                    "id": 25,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1023,70 +917,70 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "552:30:0",
+                    "src": "473:21:0",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 34,
+                  "id": 26,
                   "nodeType": "ExpressionStatement",
-                  "src": "552:30:0"
+                  "src": "473:21:0"
                 }
               ]
             },
             "documentation": {
-              "id": 25,
+              "id": 19,
               "nodeType": "StructuredDocumentation",
-              "src": "492:23:0",
+              "src": "413:23:0",
               "text": "Bid on the auction."
             },
             "functionSelector": "1998aeef",
-            "id": 36,
+            "id": 28,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "bid",
-            "nameLocation": "529:3:0",
+            "nameLocation": "450:3:0",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 26,
+              "id": 20,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "532:2:0"
+              "src": "453:2:0"
             },
             "returnParameters": {
-              "id": 27,
+              "id": 21,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "542:0:0"
+              "src": "463:0:0"
             },
-            "scope": 37,
-            "src": "520:69:0",
+            "scope": 29,
+            "src": "441:60:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 38,
-        "src": "96:495:0",
+        "scope": 30,
+        "src": "96:407:0",
         "usedErrors": []
       }
     ],
-    "src": "32:559:0"
+    "src": "32:471:0"
   },
   "legacyAST": {
     "absolutePath": "project:/contracts/AuctionBid.sol",
     "exportedSymbols": {
       "AuctionBid": [
-        37
+        29
       ],
       "SimpleAuction": [
-        243
+        235
       ]
     },
-    "id": 38,
+    "id": 30,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
@@ -1110,8 +1004,8 @@
         "id": 2,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 38,
-        "sourceUnit": 244,
+        "scope": 30,
+        "sourceUnit": 236,
         "src": "65:29:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1123,9 +1017,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 37,
+        "id": 29,
         "linearizedBaseContracts": [
-          37
+          29
         ],
         "name": "AuctionBid",
         "nameLocation": "105:10:0",
@@ -1138,12 +1032,12 @@
             "name": "auctionInstance",
             "nameLocation": "137:15:0",
             "nodeType": "VariableDeclaration",
-            "scope": 37,
+            "scope": 29,
             "src": "123:29:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_SimpleAuction_$243",
+              "typeIdentifier": "t_contract$_SimpleAuction_$235",
               "typeString": "contract SimpleAuction"
             },
             "typeName": {
@@ -1153,51 +1047,23 @@
                 "id": 3,
                 "name": "SimpleAuction",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 243,
+                "referencedDeclaration": 235,
                 "src": "123:13:0"
               },
-              "referencedDeclaration": 243,
+              "referencedDeclaration": 235,
               "src": "123:13:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SimpleAuction_$243",
+                "typeIdentifier": "t_contract$_SimpleAuction_$235",
                 "typeString": "contract SimpleAuction"
               }
             },
             "visibility": "internal"
           },
           {
-            "constant": false,
-            "id": 7,
-            "mutability": "mutable",
-            "name": "auctionContractAddress",
-            "nameLocation": "166:22:0",
-            "nodeType": "VariableDeclaration",
-            "scope": 37,
-            "src": "158:30:0",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_address",
-              "typeString": "address"
-            },
-            "typeName": {
-              "id": 6,
-              "name": "address",
-              "nodeType": "ElementaryTypeName",
-              "src": "158:7:0",
-              "stateMutability": "nonpayable",
-              "typeDescriptions": {
-                "typeIdentifier": "t_address",
-                "typeString": "address"
-              }
-            },
-            "visibility": "internal"
-          },
-          {
             "body": {
-              "id": 23,
+              "id": 17,
               "nodeType": "Block",
-              "src": "385:101:0",
+              "src": "349:58:0",
               "statements": [
                 {
                   "expression": {
@@ -1207,57 +1073,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 13,
-                      "name": "auctionContractAddress",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 7,
-                      "src": "395:22:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "=",
-                    "rightHandSide": {
-                      "id": 14,
-                      "name": "_address",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 10,
-                      "src": "420:8:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
-                    },
-                    "src": "395:33:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "id": 16,
-                  "nodeType": "ExpressionStatement",
-                  "src": "395:33:0"
-                },
-                {
-                  "expression": {
-                    "id": 21,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "id": 17,
+                      "id": 11,
                       "name": "auctionInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 5,
-                      "src": "438:15:0",
+                      "src": "359:15:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_SimpleAuction_$243",
+                        "typeIdentifier": "t_contract$_SimpleAuction_$235",
                         "typeString": "contract SimpleAuction"
                       }
                     },
@@ -1266,12 +1089,12 @@
                     "rightHandSide": {
                       "arguments": [
                         {
-                          "id": 19,
+                          "id": 13,
                           "name": "_address",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 10,
-                          "src": "470:8:0",
+                          "referencedDeclaration": 8,
+                          "src": "391:8:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1285,18 +1108,18 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 18,
+                        "id": 12,
                         "name": "SimpleAuction",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 243,
-                        "src": "456:13:0",
+                        "referencedDeclaration": 235,
+                        "src": "377:13:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_SimpleAuction_$243_$",
+                          "typeIdentifier": "t_type$_t_contract$_SimpleAuction_$235_$",
                           "typeString": "type(contract SimpleAuction)"
                         }
                       },
-                      "id": 20,
+                      "id": 14,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1304,32 +1127,32 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "456:23:0",
+                      "src": "377:23:0",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_SimpleAuction_$243",
+                        "typeIdentifier": "t_contract$_SimpleAuction_$235",
                         "typeString": "contract SimpleAuction"
                       }
                     },
-                    "src": "438:41:0",
+                    "src": "359:41:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_SimpleAuction_$243",
+                      "typeIdentifier": "t_contract$_SimpleAuction_$235",
                       "typeString": "contract SimpleAuction"
                     }
                   },
-                  "id": 22,
+                  "id": 16,
                   "nodeType": "ExpressionStatement",
-                  "src": "438:41:0"
+                  "src": "359:41:0"
                 }
               ]
             },
             "documentation": {
-              "id": 8,
+              "id": 6,
               "nodeType": "StructuredDocumentation",
-              "src": "194:142:0",
+              "src": "158:142:0",
               "text": "Create a simple auction with `biddingTime`\n seconds bidding time on behalf of the\n beneficiary address `beneficiaryAddress`."
             },
-            "id": 24,
+            "id": 18,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -1337,18 +1160,18 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 11,
+              "id": 9,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 10,
+                  "id": 8,
                   "mutability": "mutable",
                   "name": "_address",
-                  "nameLocation": "370:8:0",
+                  "nameLocation": "334:8:0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 24,
-                  "src": "362:16:0",
+                  "scope": 18,
+                  "src": "326:16:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1356,10 +1179,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 9,
+                    "id": 7,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "362:7:0",
+                    "src": "326:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1369,25 +1192,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "352:32:0"
+              "src": "316:32:0"
             },
             "returnParameters": {
-              "id": 12,
+              "id": 10,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "385:0:0"
+              "src": "349:0:0"
             },
-            "scope": 37,
-            "src": "341:145:0",
+            "scope": 29,
+            "src": "305:102:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 35,
+              "id": 27,
               "nodeType": "Block",
-              "src": "542:47:0",
+              "src": "463:38:0",
               "statements": [
                 {
                   "expression": {
@@ -1395,67 +1218,32 @@
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "argumentTypes": [],
-                        "expression": {
-                          "id": 28,
-                          "name": "auctionInstance",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 5,
-                          "src": "552:15:0",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_SimpleAuction_$243",
-                            "typeString": "contract SimpleAuction"
-                          }
-                        },
-                        "id": 30,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "memberName": "bid",
-                        "nodeType": "MemberAccess",
-                        "referencedDeclaration": 161,
-                        "src": "552:19:0",
+                        "id": 22,
+                        "name": "auctionInstance",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 5,
+                        "src": "473:15:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_external_payable$__$returns$__$",
-                          "typeString": "function () payable external"
+                          "typeIdentifier": "t_contract$_SimpleAuction_$235",
+                          "typeString": "contract SimpleAuction"
                         }
                       },
-                      "id": 32,
+                      "id": 24,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "names": [
-                        "value"
-                      ],
-                      "nodeType": "FunctionCallOptions",
-                      "options": [
-                        {
-                          "hexValue": "31",
-                          "id": 31,
-                          "isConstant": false,
-                          "isLValue": false,
-                          "isPure": true,
-                          "kind": "number",
-                          "lValueRequested": false,
-                          "nodeType": "Literal",
-                          "src": "578:1:0",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_rational_1_by_1",
-                            "typeString": "int_const 1"
-                          },
-                          "value": "1"
-                        }
-                      ],
-                      "src": "552:28:0",
+                      "memberName": "bid",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 153,
+                      "src": "473:19:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_payable$__$returns$__$value",
+                        "typeIdentifier": "t_function_external_payable$__$returns$__$",
                         "typeString": "function () payable external"
                       }
                     },
-                    "id": 33,
+                    "id": 25,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1463,58 +1251,58 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "552:30:0",
+                    "src": "473:21:0",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 34,
+                  "id": 26,
                   "nodeType": "ExpressionStatement",
-                  "src": "552:30:0"
+                  "src": "473:21:0"
                 }
               ]
             },
             "documentation": {
-              "id": 25,
+              "id": 19,
               "nodeType": "StructuredDocumentation",
-              "src": "492:23:0",
+              "src": "413:23:0",
               "text": "Bid on the auction."
             },
             "functionSelector": "1998aeef",
-            "id": 36,
+            "id": 28,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "bid",
-            "nameLocation": "529:3:0",
+            "nameLocation": "450:3:0",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 26,
+              "id": 20,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "532:2:0"
+              "src": "453:2:0"
             },
             "returnParameters": {
-              "id": 27,
+              "id": 21,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "542:0:0"
+              "src": "463:0:0"
             },
-            "scope": 37,
-            "src": "520:69:0",
+            "scope": 29,
+            "src": "441:60:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 38,
-        "src": "96:495:0",
+        "scope": 30,
+        "src": "96:407:0",
         "usedErrors": []
       }
     ],
-    "src": "32:559:0"
+    "src": "32:471:0"
   },
   "compiler": {
     "name": "solc",
@@ -1524,12 +1312,12 @@
     "5778": {
       "events": {},
       "links": {},
-      "address": "0x1FDc1a6c33d8F04a43765d2f311CDA98d9Dbb620",
-      "transactionHash": "0x896cad190bcc6c176982e3c4b8a832151767e9479adb5c505823b13d169f5ef8"
+      "address": "0x07EfB6016d1ab168ac709D8ceF3AD186a4989F95",
+      "transactionHash": "0xdc331b1cc662c440b85d4522ed7277874c333ead1f0f8e4ddf39837b33b8c255"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-12T08:15:20.126Z",
+  "updatedAt": "2021-11-15T07:32:57.183Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
