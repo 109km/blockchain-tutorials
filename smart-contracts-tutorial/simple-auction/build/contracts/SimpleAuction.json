@@ -2796,15 +2796,15 @@
     "absolutePath": "project:/contracts/SimpleAuction.sol",
     "exportedSymbols": {
       "SimpleAuction": [
-        243
+        235
       ]
     },
-    "id": 244,
+    "id": 236,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 39,
+        "id": 31,
         "literals": [
           "solidity",
           ">=",
@@ -2824,9 +2824,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 243,
+        "id": 235,
         "linearizedBaseContracts": [
-          243
+          235
         ],
         "name": "SimpleAuction",
         "nameLocation": "74:13:1",
@@ -2835,12 +2835,12 @@
           {
             "constant": false,
             "functionSelector": "38af3eed",
-            "id": 41,
+            "id": 33,
             "mutability": "mutable",
             "name": "beneficiary",
             "nameLocation": "262:11:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "239:34:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2849,7 +2849,7 @@
               "typeString": "address payable"
             },
             "typeName": {
-              "id": 40,
+              "id": 32,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "239:15:1",
@@ -2864,12 +2864,12 @@
           {
             "constant": false,
             "functionSelector": "4b449cba",
-            "id": 43,
+            "id": 35,
             "mutability": "mutable",
             "name": "auctionEndTime",
             "nameLocation": "291:14:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "279:26:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2878,7 +2878,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 42,
+              "id": 34,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "279:4:1",
@@ -2892,12 +2892,12 @@
           {
             "constant": false,
             "functionSelector": "91f90157",
-            "id": 45,
+            "id": 37,
             "mutability": "mutable",
             "name": "highestBidder",
             "nameLocation": "364:13:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "349:28:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2906,7 +2906,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 44,
+              "id": 36,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "349:7:1",
@@ -2921,12 +2921,12 @@
           {
             "constant": false,
             "functionSelector": "d57bde79",
-            "id": 47,
+            "id": 39,
             "mutability": "mutable",
             "name": "highestBid",
             "nameLocation": "395:10:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "383:22:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2935,7 +2935,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 46,
+              "id": 38,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "383:4:1",
@@ -2948,12 +2948,12 @@
           },
           {
             "constant": false,
-            "id": 51,
+            "id": 43,
             "mutability": "mutable",
             "name": "pendingReturns",
             "nameLocation": "481:14:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "456:39:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2962,9 +2962,9 @@
               "typeString": "mapping(address => uint256)"
             },
             "typeName": {
-              "id": 50,
+              "id": 42,
               "keyType": {
-                "id": 48,
+                "id": 40,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "464:7:1",
@@ -2980,7 +2980,7 @@
                 "typeString": "mapping(address => uint256)"
               },
               "valueType": {
-                "id": 49,
+                "id": 41,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
                 "src": "475:4:1",
@@ -2994,12 +2994,12 @@
           },
           {
             "constant": false,
-            "id": 53,
+            "id": 45,
             "mutability": "mutable",
             "name": "ended",
             "nameLocation": "602:5:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "597:10:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -3008,7 +3008,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 52,
+              "id": 44,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "597:4:1",
@@ -3021,23 +3021,23 @@
           },
           {
             "anonymous": false,
-            "id": 59,
+            "id": 51,
             "name": "HighestBidIncreased",
             "nameLocation": "667:19:1",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 58,
+              "id": 50,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 55,
+                  "id": 47,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "bidder",
                   "nameLocation": "695:6:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 59,
+                  "scope": 51,
                   "src": "687:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3046,7 +3046,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 54,
+                    "id": 46,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "687:7:1",
@@ -3060,13 +3060,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 57,
+                  "id": 49,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "708:6:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 59,
+                  "scope": 51,
                   "src": "703:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3075,7 +3075,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 56,
+                    "id": 48,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "703:4:1",
@@ -3093,23 +3093,23 @@
           },
           {
             "anonymous": false,
-            "id": 65,
+            "id": 57,
             "name": "AuctionEnded",
             "nameLocation": "727:12:1",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 64,
+              "id": 56,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 61,
+                  "id": 53,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "winner",
                   "nameLocation": "748:6:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 65,
+                  "scope": 57,
                   "src": "740:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3118,7 +3118,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 60,
+                    "id": 52,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "740:7:1",
@@ -3132,13 +3132,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 63,
+                  "id": 55,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "761:6:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 65,
+                  "scope": 57,
                   "src": "756:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3147,7 +3147,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 62,
+                    "id": 54,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "756:4:1",
@@ -3165,17 +3165,17 @@
           },
           {
             "documentation": {
-              "id": 66,
+              "id": 58,
               "nodeType": "StructuredDocumentation",
               "src": "999:34:1",
               "text": "The auction has already ended."
             },
-            "id": 68,
+            "id": 60,
             "name": "AuctionAlreadyEnded",
             "nameLocation": "1044:19:1",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 67,
+              "id": 59,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1063:2:1"
@@ -3184,27 +3184,27 @@
           },
           {
             "documentation": {
-              "id": 69,
+              "id": 61,
               "nodeType": "StructuredDocumentation",
               "src": "1071:43:1",
               "text": "There is already a higher or equal bid."
             },
-            "id": 73,
+            "id": 65,
             "name": "BidNotHighEnough",
             "nameLocation": "1125:16:1",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 72,
+              "id": 64,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 71,
+                  "id": 63,
                   "mutability": "mutable",
                   "name": "highestBid",
                   "nameLocation": "1147:10:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 73,
+                  "scope": 65,
                   "src": "1142:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3213,7 +3213,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 70,
+                    "id": 62,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1142:4:1",
@@ -3231,17 +3231,17 @@
           },
           {
             "documentation": {
-              "id": 74,
+              "id": 66,
               "nodeType": "StructuredDocumentation",
               "src": "1164:34:1",
               "text": "The auction has not ended yet."
             },
-            "id": 76,
+            "id": 68,
             "name": "AuctionNotYetEnded",
             "nameLocation": "1209:18:1",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 75,
+              "id": 67,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1227:2:1"
@@ -3250,17 +3250,17 @@
           },
           {
             "documentation": {
-              "id": 77,
+              "id": 69,
               "nodeType": "StructuredDocumentation",
               "src": "1235:52:1",
               "text": "The function auctionEnd has already been called."
             },
-            "id": 79,
+            "id": 71,
             "name": "AuctionEndAlreadyCalled",
             "nameLocation": "1298:23:1",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 78,
+              "id": 70,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1321:2:1"
@@ -3269,23 +3269,23 @@
           },
           {
             "body": {
-              "id": 102,
+              "id": 94,
               "nodeType": "Block",
               "src": "1565:129:1",
               "statements": [
                 {
                   "expression": {
-                    "id": 89,
+                    "id": 81,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 87,
+                      "id": 79,
                       "name": "beneficiary",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 41,
+                      "referencedDeclaration": 33,
                       "src": "1575:11:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
@@ -3295,11 +3295,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 88,
+                      "id": 80,
                       "name": "beneficiaryAddress",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 84,
+                      "referencedDeclaration": 76,
                       "src": "1589:18:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
@@ -3312,23 +3312,23 @@
                       "typeString": "address payable"
                     }
                   },
-                  "id": 90,
+                  "id": 82,
                   "nodeType": "ExpressionStatement",
                   "src": "1575:32:1"
                 },
                 {
                   "expression": {
-                    "id": 96,
+                    "id": 88,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 91,
+                      "id": 83,
                       "name": "auctionEndTime",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 43,
+                      "referencedDeclaration": 35,
                       "src": "1617:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3342,14 +3342,14 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 95,
+                      "id": 87,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
                         "expression": {
-                          "id": 92,
+                          "id": 84,
                           "name": "block",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -3360,7 +3360,7 @@
                             "typeString": "block"
                           }
                         },
-                        "id": 93,
+                        "id": 85,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3376,11 +3376,11 @@
                       "nodeType": "BinaryOperation",
                       "operator": "+",
                       "rightExpression": {
-                        "id": 94,
+                        "id": 86,
                         "name": "biddingTime",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 82,
+                        "referencedDeclaration": 74,
                         "src": "1652:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -3399,23 +3399,23 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 97,
+                  "id": 89,
                   "nodeType": "ExpressionStatement",
                   "src": "1617:46:1"
                 },
                 {
                   "expression": {
-                    "id": 100,
+                    "id": 92,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 98,
+                      "id": 90,
                       "name": "highestBid",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 47,
+                      "referencedDeclaration": 39,
                       "src": "1673:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3426,7 +3426,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "30",
-                      "id": 99,
+                      "id": 91,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -3446,19 +3446,19 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 101,
+                  "id": 93,
                   "nodeType": "ExpressionStatement",
                   "src": "1673:14:1"
                 }
               ]
             },
             "documentation": {
-              "id": 80,
+              "id": 72,
               "nodeType": "StructuredDocumentation",
               "src": "1330:142:1",
               "text": "Create a simple auction with `biddingTime`\n seconds bidding time on behalf of the\n beneficiary address `beneficiaryAddress`."
             },
-            "id": 103,
+            "id": 95,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -3466,17 +3466,17 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 85,
+              "id": 77,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 82,
+                  "id": 74,
                   "mutability": "mutable",
                   "name": "biddingTime",
                   "nameLocation": "1503:11:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 103,
+                  "scope": 95,
                   "src": "1498:16:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3485,7 +3485,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 81,
+                    "id": 73,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1498:4:1",
@@ -3498,12 +3498,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 84,
+                  "id": 76,
                   "mutability": "mutable",
                   "name": "beneficiaryAddress",
                   "nameLocation": "1540:18:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 103,
+                  "scope": 95,
                   "src": "1524:34:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3512,7 +3512,7 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 83,
+                    "id": 75,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1524:15:1",
@@ -3528,12 +3528,12 @@
               "src": "1488:76:1"
             },
             "returnParameters": {
-              "id": 86,
+              "id": 78,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1565:0:1"
             },
-            "scope": 243,
+            "scope": 235,
             "src": "1477:217:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -3541,32 +3541,32 @@
           },
           {
             "body": {
-              "id": 110,
+              "id": 102,
               "nodeType": "Block",
               "src": "1754:34:1",
               "statements": [
                 {
                   "expression": {
-                    "id": 108,
+                    "id": 100,
                     "name": "highestBid",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 47,
+                    "referencedDeclaration": 39,
                     "src": "1771:10:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 107,
-                  "id": 109,
+                  "functionReturnParameters": 99,
+                  "id": 101,
                   "nodeType": "Return",
                   "src": "1764:17:1"
                 }
               ]
             },
             "functionSelector": "4979440a",
-            "id": 111,
+            "id": 103,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3574,23 +3574,23 @@
             "nameLocation": "1709:13:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 104,
+              "id": 96,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1722:2:1"
             },
             "returnParameters": {
-              "id": 107,
+              "id": 99,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 106,
+                  "id": 98,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 111,
+                  "scope": 103,
                   "src": "1748:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3599,7 +3599,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 105,
+                    "id": 97,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1748:4:1",
@@ -3613,7 +3613,7 @@
               ],
               "src": "1747:6:1"
             },
-            "scope": 243,
+            "scope": 235,
             "src": "1700:88:1",
             "stateMutability": "view",
             "virtual": false,
@@ -3621,7 +3621,7 @@
           },
           {
             "body": {
-              "id": 160,
+              "id": 152,
               "nodeType": "Block",
               "src": "1988:1191:1",
               "statements": [
@@ -3631,14 +3631,14 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 118,
+                    "id": 110,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "expression": {
-                        "id": 115,
+                        "id": 107,
                         "name": "block",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -3649,7 +3649,7 @@
                           "typeString": "block"
                         }
                       },
-                      "id": 116,
+                      "id": 108,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3665,11 +3665,11 @@
                     "nodeType": "BinaryOperation",
                     "operator": ">",
                     "rightExpression": {
-                      "id": 117,
+                      "id": 109,
                       "name": "auctionEndTime",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 43,
+                      "referencedDeclaration": 35,
                       "src": "2304:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3682,7 +3682,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 122,
+                  "id": 114,
                   "nodeType": "IfStatement",
                   "src": "2282:78:1",
                   "trueBody": {
@@ -3690,18 +3690,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 119,
+                        "id": 111,
                         "name": "AuctionAlreadyEnded",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 68,
+                        "referencedDeclaration": 60,
                         "src": "2339:19:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$__$returns$__$",
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 120,
+                      "id": 112,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3716,7 +3716,7 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 121,
+                    "id": 113,
                     "nodeType": "RevertStatement",
                     "src": "2332:28:1"
                   }
@@ -3727,14 +3727,14 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 126,
+                    "id": 118,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "expression": {
-                        "id": 123,
+                        "id": 115,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -3745,7 +3745,7 @@
                           "typeString": "msg"
                         }
                       },
-                      "id": 124,
+                      "id": 116,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3761,11 +3761,11 @@
                     "nodeType": "BinaryOperation",
                     "operator": "<=",
                     "rightExpression": {
-                      "id": 125,
+                      "id": 117,
                       "name": "highestBid",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 47,
+                      "referencedDeclaration": 39,
                       "src": "2603:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3778,18 +3778,18 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 131,
+                  "id": 123,
                   "nodeType": "IfStatement",
                   "src": "2586:76:1",
                   "trueBody": {
                     "errorCall": {
                       "arguments": [
                         {
-                          "id": 128,
+                          "id": 120,
                           "name": "highestBid",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 47,
+                          "referencedDeclaration": 39,
                           "src": "2651:10:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -3804,18 +3804,18 @@
                             "typeString": "uint256"
                           }
                         ],
-                        "id": 127,
+                        "id": 119,
                         "name": "BidNotHighEnough",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 73,
+                        "referencedDeclaration": 65,
                         "src": "2634:16:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$_t_uint256_$returns$__$",
                           "typeString": "function (uint256) pure"
                         }
                       },
-                      "id": 129,
+                      "id": 121,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3830,7 +3830,7 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 130,
+                    "id": 122,
                     "nodeType": "RevertStatement",
                     "src": "2627:35:1"
                   }
@@ -3841,17 +3841,17 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 134,
+                    "id": 126,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 132,
+                      "id": 124,
                       "name": "highestBid",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 47,
+                      "referencedDeclaration": 39,
                       "src": "2677:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3862,7 +3862,7 @@
                     "operator": "!=",
                     "rightExpression": {
                       "hexValue": "30",
-                      "id": 133,
+                      "id": 125,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -3882,41 +3882,41 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 142,
+                  "id": 134,
                   "nodeType": "IfStatement",
                   "src": "2673:375:1",
                   "trueBody": {
-                    "id": 141,
+                    "id": 133,
                     "nodeType": "Block",
                     "src": "2694:354:1",
                     "statements": [
                       {
                         "expression": {
-                          "id": 139,
+                          "id": 131,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
                             "baseExpression": {
-                              "id": 135,
+                              "id": 127,
                               "name": "pendingReturns",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 51,
+                              "referencedDeclaration": 43,
                               "src": "2994:14:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                                 "typeString": "mapping(address => uint256)"
                               }
                             },
-                            "id": 137,
+                            "id": 129,
                             "indexExpression": {
-                              "id": 136,
+                              "id": 128,
                               "name": "highestBidder",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 45,
+                              "referencedDeclaration": 37,
                               "src": "3009:13:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -3937,11 +3937,11 @@
                           "nodeType": "Assignment",
                           "operator": "+=",
                           "rightHandSide": {
-                            "id": 138,
+                            "id": 130,
                             "name": "highestBid",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 47,
+                            "referencedDeclaration": 39,
                             "src": "3027:10:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -3954,7 +3954,7 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 140,
+                        "id": 132,
                         "nodeType": "ExpressionStatement",
                         "src": "2994:43:1"
                       }
@@ -3963,17 +3963,17 @@
                 },
                 {
                   "expression": {
-                    "id": 146,
+                    "id": 138,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 143,
+                      "id": 135,
                       "name": "highestBidder",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 45,
+                      "referencedDeclaration": 37,
                       "src": "3057:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -3984,7 +3984,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "expression": {
-                        "id": 144,
+                        "id": 136,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -3995,7 +3995,7 @@
                           "typeString": "msg"
                         }
                       },
-                      "id": 145,
+                      "id": 137,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -4014,23 +4014,23 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 147,
+                  "id": 139,
                   "nodeType": "ExpressionStatement",
                   "src": "3057:26:1"
                 },
                 {
                   "expression": {
-                    "id": 151,
+                    "id": 143,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 148,
+                      "id": 140,
                       "name": "highestBid",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 47,
+                      "referencedDeclaration": 39,
                       "src": "3093:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -4041,7 +4041,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "expression": {
-                        "id": 149,
+                        "id": 141,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -4052,7 +4052,7 @@
                           "typeString": "msg"
                         }
                       },
-                      "id": 150,
+                      "id": 142,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -4071,7 +4071,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 152,
+                  "id": 144,
                   "nodeType": "ExpressionStatement",
                   "src": "3093:22:1"
                 },
@@ -4080,7 +4080,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 154,
+                          "id": 146,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -4091,7 +4091,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 155,
+                        "id": 147,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -4106,7 +4106,7 @@
                       },
                       {
                         "expression": {
-                          "id": 156,
+                          "id": 148,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -4117,7 +4117,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 157,
+                        "id": 149,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -4142,18 +4142,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 153,
+                      "id": 145,
                       "name": "HighestBidIncreased",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 59,
+                      "referencedDeclaration": 51,
                       "src": "3130:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 158,
+                    "id": 150,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4168,20 +4168,20 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 159,
+                  "id": 151,
                   "nodeType": "EmitStatement",
                   "src": "3125:47:1"
                 }
               ]
             },
             "documentation": {
-              "id": 112,
+              "id": 104,
               "nodeType": "StructuredDocumentation",
               "src": "1794:157:1",
               "text": "Bid on the auction with the value sent\n together with this transaction.\n The value will only be refunded if the\n auction is not won."
             },
             "functionSelector": "1998aeef",
-            "id": 161,
+            "id": 153,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -4189,18 +4189,18 @@
             "nameLocation": "1965:3:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 113,
+              "id": 105,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1968:2:1"
             },
             "returnParameters": {
-              "id": 114,
+              "id": 106,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1988:0:1"
             },
-            "scope": 243,
+            "scope": 235,
             "src": "1956:1223:1",
             "stateMutability": "payable",
             "virtual": false,
@@ -4208,23 +4208,23 @@
           },
           {
             "body": {
-              "id": 208,
+              "id": 200,
               "nodeType": "Block",
               "src": "3270:569:1",
               "statements": [
                 {
                   "assignments": [
-                    168
+                    160
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 168,
+                      "id": 160,
                       "mutability": "mutable",
                       "name": "amount",
                       "nameLocation": "3285:6:1",
                       "nodeType": "VariableDeclaration",
-                      "scope": 208,
+                      "scope": 200,
                       "src": "3280:11:1",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -4233,7 +4233,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 167,
+                        "id": 159,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
                         "src": "3280:4:1",
@@ -4245,24 +4245,24 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 173,
+                  "id": 165,
                   "initialValue": {
                     "baseExpression": {
-                      "id": 169,
+                      "id": 161,
                       "name": "pendingReturns",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 51,
+                      "referencedDeclaration": 43,
                       "src": "3294:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                         "typeString": "mapping(address => uint256)"
                       }
                     },
-                    "id": 172,
+                    "id": 164,
                     "indexExpression": {
                       "expression": {
-                        "id": 170,
+                        "id": 162,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -4273,7 +4273,7 @@
                           "typeString": "msg"
                         }
                       },
-                      "id": 171,
+                      "id": 163,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -4306,17 +4306,17 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 176,
+                    "id": 168,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 174,
+                      "id": 166,
                       "name": "amount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 168,
+                      "referencedDeclaration": 160,
                       "src": "3334:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -4327,7 +4327,7 @@
                     "operator": ">",
                     "rightExpression": {
                       "hexValue": "30",
-                      "id": 175,
+                      "id": 167,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -4347,38 +4347,38 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 205,
+                  "id": 197,
                   "nodeType": "IfStatement",
                   "src": "3330:482:1",
                   "trueBody": {
-                    "id": 204,
+                    "id": 196,
                     "nodeType": "Block",
                     "src": "3346:466:1",
                     "statements": [
                       {
                         "expression": {
-                          "id": 182,
+                          "id": 174,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
                             "baseExpression": {
-                              "id": 177,
+                              "id": 169,
                               "name": "pendingReturns",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 51,
+                              "referencedDeclaration": 43,
                               "src": "3545:14:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                                 "typeString": "mapping(address => uint256)"
                               }
                             },
-                            "id": 180,
+                            "id": 172,
                             "indexExpression": {
                               "expression": {
-                                "id": 178,
+                                "id": 170,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -4389,7 +4389,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 179,
+                              "id": 171,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -4417,7 +4417,7 @@
                           "operator": "=",
                           "rightHandSide": {
                             "hexValue": "30",
-                            "id": 181,
+                            "id": 173,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -4437,13 +4437,13 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 183,
+                        "id": 175,
                         "nodeType": "ExpressionStatement",
                         "src": "3545:30:1"
                       },
                       {
                         "condition": {
-                          "id": 192,
+                          "id": 184,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -4455,11 +4455,11 @@
                           "subExpression": {
                             "arguments": [
                               {
-                                "id": 190,
+                                "id": 182,
                                 "name": "amount",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 168,
+                                "referencedDeclaration": 160,
                                 "src": "3620:6:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -4478,7 +4478,7 @@
                                 "arguments": [
                                   {
                                     "expression": {
-                                      "id": 186,
+                                      "id": 178,
                                       "name": "msg",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
@@ -4489,7 +4489,7 @@
                                         "typeString": "msg"
                                       }
                                     },
-                                    "id": 187,
+                                    "id": 179,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -4510,7 +4510,7 @@
                                       "typeString": "address"
                                     }
                                   ],
-                                  "id": 185,
+                                  "id": 177,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": true,
@@ -4522,7 +4522,7 @@
                                     "typeString": "type(address payable)"
                                   },
                                   "typeName": {
-                                    "id": 184,
+                                    "id": 176,
                                     "name": "address",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "3595:8:1",
@@ -4530,7 +4530,7 @@
                                     "typeDescriptions": {}
                                   }
                                 },
-                                "id": 188,
+                                "id": 180,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -4545,7 +4545,7 @@
                                   "typeString": "address payable"
                                 }
                               },
-                              "id": 189,
+                              "id": 181,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -4558,7 +4558,7 @@
                                 "typeString": "function (uint256) returns (bool)"
                               }
                             },
-                            "id": 191,
+                            "id": 183,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -4578,38 +4578,38 @@
                             "typeString": "bool"
                           }
                         },
-                        "id": 203,
+                        "id": 195,
                         "nodeType": "IfStatement",
                         "src": "3590:212:1",
                         "trueBody": {
-                          "id": 202,
+                          "id": 194,
                           "nodeType": "Block",
                           "src": "3629:173:1",
                           "statements": [
                             {
                               "expression": {
-                                "id": 198,
+                                "id": 190,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftHandSide": {
                                   "baseExpression": {
-                                    "id": 193,
+                                    "id": 185,
                                     "name": "pendingReturns",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 51,
+                                    "referencedDeclaration": 43,
                                     "src": "3722:14:1",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                                       "typeString": "mapping(address => uint256)"
                                     }
                                   },
-                                  "id": 196,
+                                  "id": 188,
                                   "indexExpression": {
                                     "expression": {
-                                      "id": 194,
+                                      "id": 186,
                                       "name": "msg",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
@@ -4620,7 +4620,7 @@
                                         "typeString": "msg"
                                       }
                                     },
-                                    "id": 195,
+                                    "id": 187,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -4647,11 +4647,11 @@
                                 "nodeType": "Assignment",
                                 "operator": "=",
                                 "rightHandSide": {
-                                  "id": 197,
+                                  "id": 189,
                                   "name": "amount",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 168,
+                                  "referencedDeclaration": 160,
                                   "src": "3751:6:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -4664,14 +4664,14 @@
                                   "typeString": "uint256"
                                 }
                               },
-                              "id": 199,
+                              "id": 191,
                               "nodeType": "ExpressionStatement",
                               "src": "3722:35:1"
                             },
                             {
                               "expression": {
                                 "hexValue": "66616c7365",
-                                "id": 200,
+                                "id": 192,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": true,
@@ -4685,8 +4685,8 @@
                                 },
                                 "value": "false"
                               },
-                              "functionReturnParameters": 166,
-                              "id": 201,
+                              "functionReturnParameters": 158,
+                              "id": 193,
                               "nodeType": "Return",
                               "src": "3775:12:1"
                             }
@@ -4699,7 +4699,7 @@
                 {
                   "expression": {
                     "hexValue": "74727565",
-                    "id": 206,
+                    "id": 198,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -4713,21 +4713,21 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 166,
-                  "id": 207,
+                  "functionReturnParameters": 158,
+                  "id": 199,
                   "nodeType": "Return",
                   "src": "3821:11:1"
                 }
               ]
             },
             "documentation": {
-              "id": 162,
+              "id": 154,
               "nodeType": "StructuredDocumentation",
               "src": "3185:36:1",
               "text": "Withdraw a bid that was overbid."
             },
             "functionSelector": "3ccfd60b",
-            "id": 209,
+            "id": 201,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -4735,23 +4735,23 @@
             "nameLocation": "3235:8:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 163,
+              "id": 155,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3243:2:1"
             },
             "returnParameters": {
-              "id": 166,
+              "id": 158,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 165,
+                  "id": 157,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 209,
+                  "scope": 201,
                   "src": "3264:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4760,7 +4760,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 164,
+                    "id": 156,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "3264:4:1",
@@ -4774,7 +4774,7 @@
               ],
               "src": "3263:6:1"
             },
-            "scope": 243,
+            "scope": 235,
             "src": "3226:613:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -4782,7 +4782,7 @@
           },
           {
             "body": {
-              "id": 241,
+              "id": 233,
               "nodeType": "Block",
               "src": "3953:1062:1",
               "statements": [
@@ -4792,14 +4792,14 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 216,
+                    "id": 208,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "expression": {
-                        "id": 213,
+                        "id": 205,
                         "name": "block",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -4810,7 +4810,7 @@
                           "typeString": "block"
                         }
                       },
-                      "id": 214,
+                      "id": 206,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -4826,11 +4826,11 @@
                     "nodeType": "BinaryOperation",
                     "operator": "<",
                     "rightExpression": {
-                      "id": 215,
+                      "id": 207,
                       "name": "auctionEndTime",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 43,
+                      "referencedDeclaration": 35,
                       "src": "4720:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -4843,7 +4843,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 220,
+                  "id": 212,
                   "nodeType": "IfStatement",
                   "src": "4698:77:1",
                   "trueBody": {
@@ -4851,18 +4851,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 217,
+                        "id": 209,
                         "name": "AuctionNotYetEnded",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 76,
+                        "referencedDeclaration": 68,
                         "src": "4755:18:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$__$returns$__$",
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 218,
+                      "id": 210,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -4877,25 +4877,25 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 219,
+                    "id": 211,
                     "nodeType": "RevertStatement",
                     "src": "4748:27:1"
                   }
                 },
                 {
                   "condition": {
-                    "id": 221,
+                    "id": 213,
                     "name": "ended",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 53,
+                    "referencedDeclaration": 45,
                     "src": "4789:5:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 225,
+                  "id": 217,
                   "nodeType": "IfStatement",
                   "src": "4785:55:1",
                   "trueBody": {
@@ -4903,18 +4903,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 222,
+                        "id": 214,
                         "name": "AuctionEndAlreadyCalled",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 79,
+                        "referencedDeclaration": 71,
                         "src": "4815:23:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$__$returns$__$",
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 223,
+                      "id": 215,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -4929,24 +4929,24 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 224,
+                    "id": 216,
                     "nodeType": "RevertStatement",
                     "src": "4808:32:1"
                   }
                 },
                 {
                   "expression": {
-                    "id": 228,
+                    "id": 220,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 226,
+                      "id": 218,
                       "name": "ended",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 53,
+                      "referencedDeclaration": 45,
                       "src": "4873:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -4957,7 +4957,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "74727565",
-                      "id": 227,
+                      "id": 219,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -4977,7 +4977,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 229,
+                  "id": 221,
                   "nodeType": "ExpressionStatement",
                   "src": "4873:12:1"
                 },
@@ -4985,11 +4985,11 @@
                   "eventCall": {
                     "arguments": [
                       {
-                        "id": 231,
+                        "id": 223,
                         "name": "highestBidder",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 45,
+                        "referencedDeclaration": 37,
                         "src": "4913:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -4997,11 +4997,11 @@
                         }
                       },
                       {
-                        "id": 232,
+                        "id": 224,
                         "name": "highestBid",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 47,
+                        "referencedDeclaration": 39,
                         "src": "4928:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -5020,18 +5020,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 230,
+                      "id": 222,
                       "name": "AuctionEnded",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 65,
+                      "referencedDeclaration": 57,
                       "src": "4900:12:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 233,
+                    "id": 225,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -5046,7 +5046,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 234,
+                  "id": 226,
                   "nodeType": "EmitStatement",
                   "src": "4895:44:1"
                 },
@@ -5054,11 +5054,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 238,
+                        "id": 230,
                         "name": "highestBid",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 47,
+                        "referencedDeclaration": 39,
                         "src": "4997:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -5074,18 +5074,18 @@
                         }
                       ],
                       "expression": {
-                        "id": 235,
+                        "id": 227,
                         "name": "beneficiary",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 41,
+                        "referencedDeclaration": 33,
                         "src": "4976:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       },
-                      "id": 237,
+                      "id": 229,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -5098,7 +5098,7 @@
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 239,
+                    "id": 231,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -5113,20 +5113,20 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 240,
+                  "id": 232,
                   "nodeType": "ExpressionStatement",
                   "src": "4976:32:1"
                 }
               ]
             },
             "documentation": {
-              "id": 210,
+              "id": 202,
               "nodeType": "StructuredDocumentation",
               "src": "3845:72:1",
               "text": "End the auction and send the highest bid\n to the beneficiary."
             },
             "functionSelector": "2a24f46c",
-            "id": 242,
+            "id": 234,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -5134,31 +5134,31 @@
             "nameLocation": "3931:10:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 211,
+              "id": 203,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3941:2:1"
             },
             "returnParameters": {
-              "id": 212,
+              "id": 204,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3953:0:1"
             },
-            "scope": 243,
+            "scope": 235,
             "src": "3922:1093:1",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 244,
+        "scope": 236,
         "src": "65:4952:1",
         "usedErrors": [
+          60,
+          65,
           68,
-          73,
-          76,
-          79
+          71
         ]
       }
     ],
@@ -5168,15 +5168,15 @@
     "absolutePath": "project:/contracts/SimpleAuction.sol",
     "exportedSymbols": {
       "SimpleAuction": [
-        243
+        235
       ]
     },
-    "id": 244,
+    "id": 236,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 39,
+        "id": 31,
         "literals": [
           "solidity",
           ">=",
@@ -5196,9 +5196,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 243,
+        "id": 235,
         "linearizedBaseContracts": [
-          243
+          235
         ],
         "name": "SimpleAuction",
         "nameLocation": "74:13:1",
@@ -5207,12 +5207,12 @@
           {
             "constant": false,
             "functionSelector": "38af3eed",
-            "id": 41,
+            "id": 33,
             "mutability": "mutable",
             "name": "beneficiary",
             "nameLocation": "262:11:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "239:34:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5221,7 +5221,7 @@
               "typeString": "address payable"
             },
             "typeName": {
-              "id": 40,
+              "id": 32,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "239:15:1",
@@ -5236,12 +5236,12 @@
           {
             "constant": false,
             "functionSelector": "4b449cba",
-            "id": 43,
+            "id": 35,
             "mutability": "mutable",
             "name": "auctionEndTime",
             "nameLocation": "291:14:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "279:26:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5250,7 +5250,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 42,
+              "id": 34,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "279:4:1",
@@ -5264,12 +5264,12 @@
           {
             "constant": false,
             "functionSelector": "91f90157",
-            "id": 45,
+            "id": 37,
             "mutability": "mutable",
             "name": "highestBidder",
             "nameLocation": "364:13:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "349:28:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5278,7 +5278,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 44,
+              "id": 36,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "349:7:1",
@@ -5293,12 +5293,12 @@
           {
             "constant": false,
             "functionSelector": "d57bde79",
-            "id": 47,
+            "id": 39,
             "mutability": "mutable",
             "name": "highestBid",
             "nameLocation": "395:10:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "383:22:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5307,7 +5307,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 46,
+              "id": 38,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "383:4:1",
@@ -5320,12 +5320,12 @@
           },
           {
             "constant": false,
-            "id": 51,
+            "id": 43,
             "mutability": "mutable",
             "name": "pendingReturns",
             "nameLocation": "481:14:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "456:39:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5334,9 +5334,9 @@
               "typeString": "mapping(address => uint256)"
             },
             "typeName": {
-              "id": 50,
+              "id": 42,
               "keyType": {
-                "id": 48,
+                "id": 40,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "464:7:1",
@@ -5352,7 +5352,7 @@
                 "typeString": "mapping(address => uint256)"
               },
               "valueType": {
-                "id": 49,
+                "id": 41,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
                 "src": "475:4:1",
@@ -5366,12 +5366,12 @@
           },
           {
             "constant": false,
-            "id": 53,
+            "id": 45,
             "mutability": "mutable",
             "name": "ended",
             "nameLocation": "602:5:1",
             "nodeType": "VariableDeclaration",
-            "scope": 243,
+            "scope": 235,
             "src": "597:10:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5380,7 +5380,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 52,
+              "id": 44,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "597:4:1",
@@ -5393,23 +5393,23 @@
           },
           {
             "anonymous": false,
-            "id": 59,
+            "id": 51,
             "name": "HighestBidIncreased",
             "nameLocation": "667:19:1",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 58,
+              "id": 50,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 55,
+                  "id": 47,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "bidder",
                   "nameLocation": "695:6:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 59,
+                  "scope": 51,
                   "src": "687:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5418,7 +5418,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 54,
+                    "id": 46,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "687:7:1",
@@ -5432,13 +5432,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 57,
+                  "id": 49,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "708:6:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 59,
+                  "scope": 51,
                   "src": "703:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5447,7 +5447,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 56,
+                    "id": 48,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "703:4:1",
@@ -5465,23 +5465,23 @@
           },
           {
             "anonymous": false,
-            "id": 65,
+            "id": 57,
             "name": "AuctionEnded",
             "nameLocation": "727:12:1",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 64,
+              "id": 56,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 61,
+                  "id": 53,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "winner",
                   "nameLocation": "748:6:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 65,
+                  "scope": 57,
                   "src": "740:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5490,7 +5490,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 60,
+                    "id": 52,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "740:7:1",
@@ -5504,13 +5504,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 63,
+                  "id": 55,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "761:6:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 65,
+                  "scope": 57,
                   "src": "756:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5519,7 +5519,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 62,
+                    "id": 54,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "756:4:1",
@@ -5537,17 +5537,17 @@
           },
           {
             "documentation": {
-              "id": 66,
+              "id": 58,
               "nodeType": "StructuredDocumentation",
               "src": "999:34:1",
               "text": "The auction has already ended."
             },
-            "id": 68,
+            "id": 60,
             "name": "AuctionAlreadyEnded",
             "nameLocation": "1044:19:1",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 67,
+              "id": 59,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1063:2:1"
@@ -5556,27 +5556,27 @@
           },
           {
             "documentation": {
-              "id": 69,
+              "id": 61,
               "nodeType": "StructuredDocumentation",
               "src": "1071:43:1",
               "text": "There is already a higher or equal bid."
             },
-            "id": 73,
+            "id": 65,
             "name": "BidNotHighEnough",
             "nameLocation": "1125:16:1",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 72,
+              "id": 64,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 71,
+                  "id": 63,
                   "mutability": "mutable",
                   "name": "highestBid",
                   "nameLocation": "1147:10:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 73,
+                  "scope": 65,
                   "src": "1142:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5585,7 +5585,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 70,
+                    "id": 62,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1142:4:1",
@@ -5603,17 +5603,17 @@
           },
           {
             "documentation": {
-              "id": 74,
+              "id": 66,
               "nodeType": "StructuredDocumentation",
               "src": "1164:34:1",
               "text": "The auction has not ended yet."
             },
-            "id": 76,
+            "id": 68,
             "name": "AuctionNotYetEnded",
             "nameLocation": "1209:18:1",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 75,
+              "id": 67,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1227:2:1"
@@ -5622,17 +5622,17 @@
           },
           {
             "documentation": {
-              "id": 77,
+              "id": 69,
               "nodeType": "StructuredDocumentation",
               "src": "1235:52:1",
               "text": "The function auctionEnd has already been called."
             },
-            "id": 79,
+            "id": 71,
             "name": "AuctionEndAlreadyCalled",
             "nameLocation": "1298:23:1",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 78,
+              "id": 70,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1321:2:1"
@@ -5641,23 +5641,23 @@
           },
           {
             "body": {
-              "id": 102,
+              "id": 94,
               "nodeType": "Block",
               "src": "1565:129:1",
               "statements": [
                 {
                   "expression": {
-                    "id": 89,
+                    "id": 81,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 87,
+                      "id": 79,
                       "name": "beneficiary",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 41,
+                      "referencedDeclaration": 33,
                       "src": "1575:11:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
@@ -5667,11 +5667,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 88,
+                      "id": 80,
                       "name": "beneficiaryAddress",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 84,
+                      "referencedDeclaration": 76,
                       "src": "1589:18:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
@@ -5684,23 +5684,23 @@
                       "typeString": "address payable"
                     }
                   },
-                  "id": 90,
+                  "id": 82,
                   "nodeType": "ExpressionStatement",
                   "src": "1575:32:1"
                 },
                 {
                   "expression": {
-                    "id": 96,
+                    "id": 88,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 91,
+                      "id": 83,
                       "name": "auctionEndTime",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 43,
+                      "referencedDeclaration": 35,
                       "src": "1617:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -5714,14 +5714,14 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 95,
+                      "id": 87,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
                         "expression": {
-                          "id": 92,
+                          "id": 84,
                           "name": "block",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -5732,7 +5732,7 @@
                             "typeString": "block"
                           }
                         },
-                        "id": 93,
+                        "id": 85,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -5748,11 +5748,11 @@
                       "nodeType": "BinaryOperation",
                       "operator": "+",
                       "rightExpression": {
-                        "id": 94,
+                        "id": 86,
                         "name": "biddingTime",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 82,
+                        "referencedDeclaration": 74,
                         "src": "1652:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -5771,23 +5771,23 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 97,
+                  "id": 89,
                   "nodeType": "ExpressionStatement",
                   "src": "1617:46:1"
                 },
                 {
                   "expression": {
-                    "id": 100,
+                    "id": 92,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 98,
+                      "id": 90,
                       "name": "highestBid",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 47,
+                      "referencedDeclaration": 39,
                       "src": "1673:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -5798,7 +5798,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "30",
-                      "id": 99,
+                      "id": 91,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -5818,19 +5818,19 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 101,
+                  "id": 93,
                   "nodeType": "ExpressionStatement",
                   "src": "1673:14:1"
                 }
               ]
             },
             "documentation": {
-              "id": 80,
+              "id": 72,
               "nodeType": "StructuredDocumentation",
               "src": "1330:142:1",
               "text": "Create a simple auction with `biddingTime`\n seconds bidding time on behalf of the\n beneficiary address `beneficiaryAddress`."
             },
-            "id": 103,
+            "id": 95,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -5838,17 +5838,17 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 85,
+              "id": 77,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 82,
+                  "id": 74,
                   "mutability": "mutable",
                   "name": "biddingTime",
                   "nameLocation": "1503:11:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 103,
+                  "scope": 95,
                   "src": "1498:16:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5857,7 +5857,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 81,
+                    "id": 73,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1498:4:1",
@@ -5870,12 +5870,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 84,
+                  "id": 76,
                   "mutability": "mutable",
                   "name": "beneficiaryAddress",
                   "nameLocation": "1540:18:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 103,
+                  "scope": 95,
                   "src": "1524:34:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5884,7 +5884,7 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 83,
+                    "id": 75,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1524:15:1",
@@ -5900,12 +5900,12 @@
               "src": "1488:76:1"
             },
             "returnParameters": {
-              "id": 86,
+              "id": 78,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1565:0:1"
             },
-            "scope": 243,
+            "scope": 235,
             "src": "1477:217:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -5913,32 +5913,32 @@
           },
           {
             "body": {
-              "id": 110,
+              "id": 102,
               "nodeType": "Block",
               "src": "1754:34:1",
               "statements": [
                 {
                   "expression": {
-                    "id": 108,
+                    "id": 100,
                     "name": "highestBid",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 47,
+                    "referencedDeclaration": 39,
                     "src": "1771:10:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 107,
-                  "id": 109,
+                  "functionReturnParameters": 99,
+                  "id": 101,
                   "nodeType": "Return",
                   "src": "1764:17:1"
                 }
               ]
             },
             "functionSelector": "4979440a",
-            "id": 111,
+            "id": 103,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -5946,23 +5946,23 @@
             "nameLocation": "1709:13:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 104,
+              "id": 96,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1722:2:1"
             },
             "returnParameters": {
-              "id": 107,
+              "id": 99,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 106,
+                  "id": 98,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 111,
+                  "scope": 103,
                   "src": "1748:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5971,7 +5971,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 105,
+                    "id": 97,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1748:4:1",
@@ -5985,7 +5985,7 @@
               ],
               "src": "1747:6:1"
             },
-            "scope": 243,
+            "scope": 235,
             "src": "1700:88:1",
             "stateMutability": "view",
             "virtual": false,
@@ -5993,7 +5993,7 @@
           },
           {
             "body": {
-              "id": 160,
+              "id": 152,
               "nodeType": "Block",
               "src": "1988:1191:1",
               "statements": [
@@ -6003,14 +6003,14 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 118,
+                    "id": 110,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "expression": {
-                        "id": 115,
+                        "id": 107,
                         "name": "block",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -6021,7 +6021,7 @@
                           "typeString": "block"
                         }
                       },
-                      "id": 116,
+                      "id": 108,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -6037,11 +6037,11 @@
                     "nodeType": "BinaryOperation",
                     "operator": ">",
                     "rightExpression": {
-                      "id": 117,
+                      "id": 109,
                       "name": "auctionEndTime",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 43,
+                      "referencedDeclaration": 35,
                       "src": "2304:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6054,7 +6054,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 122,
+                  "id": 114,
                   "nodeType": "IfStatement",
                   "src": "2282:78:1",
                   "trueBody": {
@@ -6062,18 +6062,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 119,
+                        "id": 111,
                         "name": "AuctionAlreadyEnded",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 68,
+                        "referencedDeclaration": 60,
                         "src": "2339:19:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$__$returns$__$",
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 120,
+                      "id": 112,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -6088,7 +6088,7 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 121,
+                    "id": 113,
                     "nodeType": "RevertStatement",
                     "src": "2332:28:1"
                   }
@@ -6099,14 +6099,14 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 126,
+                    "id": 118,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "expression": {
-                        "id": 123,
+                        "id": 115,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -6117,7 +6117,7 @@
                           "typeString": "msg"
                         }
                       },
-                      "id": 124,
+                      "id": 116,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -6133,11 +6133,11 @@
                     "nodeType": "BinaryOperation",
                     "operator": "<=",
                     "rightExpression": {
-                      "id": 125,
+                      "id": 117,
                       "name": "highestBid",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 47,
+                      "referencedDeclaration": 39,
                       "src": "2603:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6150,18 +6150,18 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 131,
+                  "id": 123,
                   "nodeType": "IfStatement",
                   "src": "2586:76:1",
                   "trueBody": {
                     "errorCall": {
                       "arguments": [
                         {
-                          "id": 128,
+                          "id": 120,
                           "name": "highestBid",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 47,
+                          "referencedDeclaration": 39,
                           "src": "2651:10:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -6176,18 +6176,18 @@
                             "typeString": "uint256"
                           }
                         ],
-                        "id": 127,
+                        "id": 119,
                         "name": "BidNotHighEnough",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 73,
+                        "referencedDeclaration": 65,
                         "src": "2634:16:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$_t_uint256_$returns$__$",
                           "typeString": "function (uint256) pure"
                         }
                       },
-                      "id": 129,
+                      "id": 121,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -6202,7 +6202,7 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 130,
+                    "id": 122,
                     "nodeType": "RevertStatement",
                     "src": "2627:35:1"
                   }
@@ -6213,17 +6213,17 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 134,
+                    "id": 126,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 132,
+                      "id": 124,
                       "name": "highestBid",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 47,
+                      "referencedDeclaration": 39,
                       "src": "2677:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6234,7 +6234,7 @@
                     "operator": "!=",
                     "rightExpression": {
                       "hexValue": "30",
-                      "id": 133,
+                      "id": 125,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -6254,41 +6254,41 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 142,
+                  "id": 134,
                   "nodeType": "IfStatement",
                   "src": "2673:375:1",
                   "trueBody": {
-                    "id": 141,
+                    "id": 133,
                     "nodeType": "Block",
                     "src": "2694:354:1",
                     "statements": [
                       {
                         "expression": {
-                          "id": 139,
+                          "id": 131,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
                             "baseExpression": {
-                              "id": 135,
+                              "id": 127,
                               "name": "pendingReturns",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 51,
+                              "referencedDeclaration": 43,
                               "src": "2994:14:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                                 "typeString": "mapping(address => uint256)"
                               }
                             },
-                            "id": 137,
+                            "id": 129,
                             "indexExpression": {
-                              "id": 136,
+                              "id": 128,
                               "name": "highestBidder",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 45,
+                              "referencedDeclaration": 37,
                               "src": "3009:13:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -6309,11 +6309,11 @@
                           "nodeType": "Assignment",
                           "operator": "+=",
                           "rightHandSide": {
-                            "id": 138,
+                            "id": 130,
                             "name": "highestBid",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 47,
+                            "referencedDeclaration": 39,
                             "src": "3027:10:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -6326,7 +6326,7 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 140,
+                        "id": 132,
                         "nodeType": "ExpressionStatement",
                         "src": "2994:43:1"
                       }
@@ -6335,17 +6335,17 @@
                 },
                 {
                   "expression": {
-                    "id": 146,
+                    "id": 138,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 143,
+                      "id": 135,
                       "name": "highestBidder",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 45,
+                      "referencedDeclaration": 37,
                       "src": "3057:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -6356,7 +6356,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "expression": {
-                        "id": 144,
+                        "id": 136,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -6367,7 +6367,7 @@
                           "typeString": "msg"
                         }
                       },
-                      "id": 145,
+                      "id": 137,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -6386,23 +6386,23 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 147,
+                  "id": 139,
                   "nodeType": "ExpressionStatement",
                   "src": "3057:26:1"
                 },
                 {
                   "expression": {
-                    "id": 151,
+                    "id": 143,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 148,
+                      "id": 140,
                       "name": "highestBid",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 47,
+                      "referencedDeclaration": 39,
                       "src": "3093:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6413,7 +6413,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "expression": {
-                        "id": 149,
+                        "id": 141,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -6424,7 +6424,7 @@
                           "typeString": "msg"
                         }
                       },
-                      "id": 150,
+                      "id": 142,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -6443,7 +6443,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 152,
+                  "id": 144,
                   "nodeType": "ExpressionStatement",
                   "src": "3093:22:1"
                 },
@@ -6452,7 +6452,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 154,
+                          "id": 146,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -6463,7 +6463,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 155,
+                        "id": 147,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -6478,7 +6478,7 @@
                       },
                       {
                         "expression": {
-                          "id": 156,
+                          "id": 148,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -6489,7 +6489,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 157,
+                        "id": 149,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -6514,18 +6514,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 153,
+                      "id": 145,
                       "name": "HighestBidIncreased",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 59,
+                      "referencedDeclaration": 51,
                       "src": "3130:19:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 158,
+                    "id": 150,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -6540,20 +6540,20 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 159,
+                  "id": 151,
                   "nodeType": "EmitStatement",
                   "src": "3125:47:1"
                 }
               ]
             },
             "documentation": {
-              "id": 112,
+              "id": 104,
               "nodeType": "StructuredDocumentation",
               "src": "1794:157:1",
               "text": "Bid on the auction with the value sent\n together with this transaction.\n The value will only be refunded if the\n auction is not won."
             },
             "functionSelector": "1998aeef",
-            "id": 161,
+            "id": 153,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -6561,18 +6561,18 @@
             "nameLocation": "1965:3:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 113,
+              "id": 105,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1968:2:1"
             },
             "returnParameters": {
-              "id": 114,
+              "id": 106,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1988:0:1"
             },
-            "scope": 243,
+            "scope": 235,
             "src": "1956:1223:1",
             "stateMutability": "payable",
             "virtual": false,
@@ -6580,23 +6580,23 @@
           },
           {
             "body": {
-              "id": 208,
+              "id": 200,
               "nodeType": "Block",
               "src": "3270:569:1",
               "statements": [
                 {
                   "assignments": [
-                    168
+                    160
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 168,
+                      "id": 160,
                       "mutability": "mutable",
                       "name": "amount",
                       "nameLocation": "3285:6:1",
                       "nodeType": "VariableDeclaration",
-                      "scope": 208,
+                      "scope": 200,
                       "src": "3280:11:1",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -6605,7 +6605,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 167,
+                        "id": 159,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
                         "src": "3280:4:1",
@@ -6617,24 +6617,24 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 173,
+                  "id": 165,
                   "initialValue": {
                     "baseExpression": {
-                      "id": 169,
+                      "id": 161,
                       "name": "pendingReturns",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 51,
+                      "referencedDeclaration": 43,
                       "src": "3294:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                         "typeString": "mapping(address => uint256)"
                       }
                     },
-                    "id": 172,
+                    "id": 164,
                     "indexExpression": {
                       "expression": {
-                        "id": 170,
+                        "id": 162,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -6645,7 +6645,7 @@
                           "typeString": "msg"
                         }
                       },
-                      "id": 171,
+                      "id": 163,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -6678,17 +6678,17 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 176,
+                    "id": 168,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 174,
+                      "id": 166,
                       "name": "amount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 168,
+                      "referencedDeclaration": 160,
                       "src": "3334:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6699,7 +6699,7 @@
                     "operator": ">",
                     "rightExpression": {
                       "hexValue": "30",
-                      "id": 175,
+                      "id": 167,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -6719,38 +6719,38 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 205,
+                  "id": 197,
                   "nodeType": "IfStatement",
                   "src": "3330:482:1",
                   "trueBody": {
-                    "id": 204,
+                    "id": 196,
                     "nodeType": "Block",
                     "src": "3346:466:1",
                     "statements": [
                       {
                         "expression": {
-                          "id": 182,
+                          "id": 174,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
                             "baseExpression": {
-                              "id": 177,
+                              "id": 169,
                               "name": "pendingReturns",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 51,
+                              "referencedDeclaration": 43,
                               "src": "3545:14:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                                 "typeString": "mapping(address => uint256)"
                               }
                             },
-                            "id": 180,
+                            "id": 172,
                             "indexExpression": {
                               "expression": {
-                                "id": 178,
+                                "id": 170,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -6761,7 +6761,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 179,
+                              "id": 171,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -6789,7 +6789,7 @@
                           "operator": "=",
                           "rightHandSide": {
                             "hexValue": "30",
-                            "id": 181,
+                            "id": 173,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -6809,13 +6809,13 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 183,
+                        "id": 175,
                         "nodeType": "ExpressionStatement",
                         "src": "3545:30:1"
                       },
                       {
                         "condition": {
-                          "id": 192,
+                          "id": 184,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -6827,11 +6827,11 @@
                           "subExpression": {
                             "arguments": [
                               {
-                                "id": 190,
+                                "id": 182,
                                 "name": "amount",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 168,
+                                "referencedDeclaration": 160,
                                 "src": "3620:6:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -6850,7 +6850,7 @@
                                 "arguments": [
                                   {
                                     "expression": {
-                                      "id": 186,
+                                      "id": 178,
                                       "name": "msg",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
@@ -6861,7 +6861,7 @@
                                         "typeString": "msg"
                                       }
                                     },
-                                    "id": 187,
+                                    "id": 179,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -6882,7 +6882,7 @@
                                       "typeString": "address"
                                     }
                                   ],
-                                  "id": 185,
+                                  "id": 177,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": true,
@@ -6894,7 +6894,7 @@
                                     "typeString": "type(address payable)"
                                   },
                                   "typeName": {
-                                    "id": 184,
+                                    "id": 176,
                                     "name": "address",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "3595:8:1",
@@ -6902,7 +6902,7 @@
                                     "typeDescriptions": {}
                                   }
                                 },
-                                "id": 188,
+                                "id": 180,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -6917,7 +6917,7 @@
                                   "typeString": "address payable"
                                 }
                               },
-                              "id": 189,
+                              "id": 181,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -6930,7 +6930,7 @@
                                 "typeString": "function (uint256) returns (bool)"
                               }
                             },
-                            "id": 191,
+                            "id": 183,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -6950,38 +6950,38 @@
                             "typeString": "bool"
                           }
                         },
-                        "id": 203,
+                        "id": 195,
                         "nodeType": "IfStatement",
                         "src": "3590:212:1",
                         "trueBody": {
-                          "id": 202,
+                          "id": 194,
                           "nodeType": "Block",
                           "src": "3629:173:1",
                           "statements": [
                             {
                               "expression": {
-                                "id": 198,
+                                "id": 190,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftHandSide": {
                                   "baseExpression": {
-                                    "id": 193,
+                                    "id": 185,
                                     "name": "pendingReturns",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 51,
+                                    "referencedDeclaration": 43,
                                     "src": "3722:14:1",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                                       "typeString": "mapping(address => uint256)"
                                     }
                                   },
-                                  "id": 196,
+                                  "id": 188,
                                   "indexExpression": {
                                     "expression": {
-                                      "id": 194,
+                                      "id": 186,
                                       "name": "msg",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
@@ -6992,7 +6992,7 @@
                                         "typeString": "msg"
                                       }
                                     },
-                                    "id": 195,
+                                    "id": 187,
                                     "isConstant": false,
                                     "isLValue": false,
                                     "isPure": false,
@@ -7019,11 +7019,11 @@
                                 "nodeType": "Assignment",
                                 "operator": "=",
                                 "rightHandSide": {
-                                  "id": 197,
+                                  "id": 189,
                                   "name": "amount",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 168,
+                                  "referencedDeclaration": 160,
                                   "src": "3751:6:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -7036,14 +7036,14 @@
                                   "typeString": "uint256"
                                 }
                               },
-                              "id": 199,
+                              "id": 191,
                               "nodeType": "ExpressionStatement",
                               "src": "3722:35:1"
                             },
                             {
                               "expression": {
                                 "hexValue": "66616c7365",
-                                "id": 200,
+                                "id": 192,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": true,
@@ -7057,8 +7057,8 @@
                                 },
                                 "value": "false"
                               },
-                              "functionReturnParameters": 166,
-                              "id": 201,
+                              "functionReturnParameters": 158,
+                              "id": 193,
                               "nodeType": "Return",
                               "src": "3775:12:1"
                             }
@@ -7071,7 +7071,7 @@
                 {
                   "expression": {
                     "hexValue": "74727565",
-                    "id": 206,
+                    "id": 198,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -7085,21 +7085,21 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 166,
-                  "id": 207,
+                  "functionReturnParameters": 158,
+                  "id": 199,
                   "nodeType": "Return",
                   "src": "3821:11:1"
                 }
               ]
             },
             "documentation": {
-              "id": 162,
+              "id": 154,
               "nodeType": "StructuredDocumentation",
               "src": "3185:36:1",
               "text": "Withdraw a bid that was overbid."
             },
             "functionSelector": "3ccfd60b",
-            "id": 209,
+            "id": 201,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -7107,23 +7107,23 @@
             "nameLocation": "3235:8:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 163,
+              "id": 155,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3243:2:1"
             },
             "returnParameters": {
-              "id": 166,
+              "id": 158,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 165,
+                  "id": 157,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 209,
+                  "scope": 201,
                   "src": "3264:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -7132,7 +7132,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 164,
+                    "id": 156,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "3264:4:1",
@@ -7146,7 +7146,7 @@
               ],
               "src": "3263:6:1"
             },
-            "scope": 243,
+            "scope": 235,
             "src": "3226:613:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -7154,7 +7154,7 @@
           },
           {
             "body": {
-              "id": 241,
+              "id": 233,
               "nodeType": "Block",
               "src": "3953:1062:1",
               "statements": [
@@ -7164,14 +7164,14 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 216,
+                    "id": 208,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "expression": {
-                        "id": 213,
+                        "id": 205,
                         "name": "block",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -7182,7 +7182,7 @@
                           "typeString": "block"
                         }
                       },
-                      "id": 214,
+                      "id": 206,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -7198,11 +7198,11 @@
                     "nodeType": "BinaryOperation",
                     "operator": "<",
                     "rightExpression": {
-                      "id": 215,
+                      "id": 207,
                       "name": "auctionEndTime",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 43,
+                      "referencedDeclaration": 35,
                       "src": "4720:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -7215,7 +7215,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 220,
+                  "id": 212,
                   "nodeType": "IfStatement",
                   "src": "4698:77:1",
                   "trueBody": {
@@ -7223,18 +7223,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 217,
+                        "id": 209,
                         "name": "AuctionNotYetEnded",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 76,
+                        "referencedDeclaration": 68,
                         "src": "4755:18:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$__$returns$__$",
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 218,
+                      "id": 210,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -7249,25 +7249,25 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 219,
+                    "id": 211,
                     "nodeType": "RevertStatement",
                     "src": "4748:27:1"
                   }
                 },
                 {
                   "condition": {
-                    "id": 221,
+                    "id": 213,
                     "name": "ended",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 53,
+                    "referencedDeclaration": 45,
                     "src": "4789:5:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 225,
+                  "id": 217,
                   "nodeType": "IfStatement",
                   "src": "4785:55:1",
                   "trueBody": {
@@ -7275,18 +7275,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 222,
+                        "id": 214,
                         "name": "AuctionEndAlreadyCalled",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 79,
+                        "referencedDeclaration": 71,
                         "src": "4815:23:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$__$returns$__$",
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 223,
+                      "id": 215,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -7301,24 +7301,24 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 224,
+                    "id": 216,
                     "nodeType": "RevertStatement",
                     "src": "4808:32:1"
                   }
                 },
                 {
                   "expression": {
-                    "id": 228,
+                    "id": 220,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 226,
+                      "id": 218,
                       "name": "ended",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 53,
+                      "referencedDeclaration": 45,
                       "src": "4873:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -7329,7 +7329,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "74727565",
-                      "id": 227,
+                      "id": 219,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -7349,7 +7349,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 229,
+                  "id": 221,
                   "nodeType": "ExpressionStatement",
                   "src": "4873:12:1"
                 },
@@ -7357,11 +7357,11 @@
                   "eventCall": {
                     "arguments": [
                       {
-                        "id": 231,
+                        "id": 223,
                         "name": "highestBidder",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 45,
+                        "referencedDeclaration": 37,
                         "src": "4913:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -7369,11 +7369,11 @@
                         }
                       },
                       {
-                        "id": 232,
+                        "id": 224,
                         "name": "highestBid",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 47,
+                        "referencedDeclaration": 39,
                         "src": "4928:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -7392,18 +7392,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 230,
+                      "id": 222,
                       "name": "AuctionEnded",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 65,
+                      "referencedDeclaration": 57,
                       "src": "4900:12:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 233,
+                    "id": 225,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -7418,7 +7418,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 234,
+                  "id": 226,
                   "nodeType": "EmitStatement",
                   "src": "4895:44:1"
                 },
@@ -7426,11 +7426,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 238,
+                        "id": 230,
                         "name": "highestBid",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 47,
+                        "referencedDeclaration": 39,
                         "src": "4997:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -7446,18 +7446,18 @@
                         }
                       ],
                       "expression": {
-                        "id": 235,
+                        "id": 227,
                         "name": "beneficiary",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 41,
+                        "referencedDeclaration": 33,
                         "src": "4976:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       },
-                      "id": 237,
+                      "id": 229,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -7470,7 +7470,7 @@
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 239,
+                    "id": 231,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -7485,20 +7485,20 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 240,
+                  "id": 232,
                   "nodeType": "ExpressionStatement",
                   "src": "4976:32:1"
                 }
               ]
             },
             "documentation": {
-              "id": 210,
+              "id": 202,
               "nodeType": "StructuredDocumentation",
               "src": "3845:72:1",
               "text": "End the auction and send the highest bid\n to the beneficiary."
             },
             "functionSelector": "2a24f46c",
-            "id": 242,
+            "id": 234,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -7506,31 +7506,31 @@
             "nameLocation": "3931:10:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 211,
+              "id": 203,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3941:2:1"
             },
             "returnParameters": {
-              "id": 212,
+              "id": 204,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3953:0:1"
             },
-            "scope": 243,
+            "scope": 235,
             "src": "3922:1093:1",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 244,
+        "scope": 236,
         "src": "65:4952:1",
         "usedErrors": [
+          60,
+          65,
           68,
-          73,
-          76,
-          79
+          71
         ]
       }
     ],
@@ -7546,10 +7546,16 @@
       "links": {},
       "address": "0xBE86188188B73c550040e463B3b99617175d68F7",
       "transactionHash": "0x1886e711aa5cc4bc87ccb2c73250a1c47a261ed0c0c56ce3de36034ff3142d69"
+    },
+    "5780": {
+      "events": {},
+      "links": {},
+      "address": "0x5BC1fed49Ba2bee1397651E6b3f168748a07A919",
+      "transactionHash": "0x5a309eb9cc80f33cc7229cc3e0b48bec163afc7dacf7f283621ee8f4f235732b"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-15T07:32:57.180Z",
+  "updatedAt": "2021-11-15T08:50:50.579Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

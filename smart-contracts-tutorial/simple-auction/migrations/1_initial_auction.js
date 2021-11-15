@@ -6,8 +6,7 @@ module.exports = async function (deployer, network, accounts) {
     SimpleAuction,
     36000,
     '0x29713b2938526A53c1f0c2db39EE7E1D1A9F36c2',
-    { overwrite: true, from: accounts[0] },
   )
   const a = await SimpleAuction.deployed()
-  await deployer.deploy(AuctionBid, a.address, { overwrite: false })
+  await deployer.deploy(AuctionBid, a.address)
 }
