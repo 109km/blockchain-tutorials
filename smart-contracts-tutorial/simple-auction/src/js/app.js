@@ -137,7 +137,7 @@ $(function () {
     handleBid: function (event) {
       event.preventDefault()
 
-      var price = parseInt($('#price').val())
+      var price = $('#price').val() * 1
 
       web3.eth.getAccounts(function (error, accounts) {
         if (error) {
