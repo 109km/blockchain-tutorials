@@ -71,6 +71,67 @@ $(function () {
 
     bindEvents: function () {
       $(document).on('click', '#btn-bid', App.handleBid)
+      $(document).on('click', '#btn-withdraw', App.handleBid)
+      $(document).on('click', '#btn-auction', App.handleEndAuction)
+      $(document).on('click', '#btn-get-highest', App.handleHighestAuction)
+    },
+
+    handleHighestAuction: function (event) {
+      event.preventDefault()
+      web3.eth.getAccounts(async function (error, accounts) {
+        if (error) {
+          console.log(error)
+        }
+        var account = accounts[0]
+
+        const instance = await App.contracts.SimpileAuction.deployed()
+        console.log(await instance.auctionEndTime())
+        console.log(await instance.highestBidder())
+
+        const num = await instance.getHighestBid({ from: account })
+        console.log(num)
+      })
+    },
+    handleEndAuction: function (event) {
+      event.preventDefault()
+      web3.eth.getAccounts(function (error, accounts) {
+        if (error) {
+          console.log(error)
+        }
+        var account = accounts[0]
+        App.contracts.SimpileAuction.deployed()
+          .then(function (instance) {
+            // Execute adopt as a transaction by sending account
+            return instance.auctionEnd({ from: account })
+          })
+          .then(function (result) {
+            console.log(result)
+          })
+          .catch(function (err) {
+            console.log(err.message)
+          })
+      })
+    },
+    handleWithdraw: function (event) {
+      event.preventDefault()
+
+      web3.eth.getAccounts(function (error, accounts) {
+        if (error) {
+          console.log(error)
+        }
+        var account = accounts[0]
+        App.contracts.SimpileAuction.deployed()
+          .then(function (instance) {
+            // Execute adopt as a transaction by sending account
+            return instance.withdraw()
+          })
+          .then(function (result) {
+            console.log(result)
+          })
+          .catch(function (err) {
+            console.log(err.message)
+          })
+      })
     },
 
     handleBid: function (event) {
