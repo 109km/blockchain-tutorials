@@ -71,7 +71,7 @@ $(function () {
 
     bindEvents: function () {
       $(document).on('click', '#btn-bid', App.handleBid)
-      $(document).on('click', '#btn-withdraw', App.handleBid)
+      $(document).on('click', '#btn-withdraw', App.handleWithdraw)
       $(document).on('click', '#btn-auction', App.handleEndAuction)
       $(document).on('click', '#btn-get-highest', App.handleHighestAuction)
     },
@@ -123,7 +123,7 @@ $(function () {
         App.contracts.SimpileAuction.deployed()
           .then(function (instance) {
             // Execute adopt as a transaction by sending account
-            return instance.withdraw()
+            return instance.withdraw({ from: account })
           })
           .then(function (result) {
             console.log(result)
