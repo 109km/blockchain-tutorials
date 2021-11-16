@@ -8,6 +8,7 @@ $(function () {
     },
     initWeb3: async function () {
       const res = await ContractUtils.init('http://localhost:7548')
+      console.log(res)
       App.owner = res.accounts[0]
       App.web3Provider = res.web3Provider
       App.initContract()

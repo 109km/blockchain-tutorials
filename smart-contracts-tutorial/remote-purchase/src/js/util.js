@@ -24,7 +24,6 @@ const ContractUtils = {
     window.web3 = web3
 
     const accounts = await web3.eth.getAccounts()
-
     return {
       web3Provider,
       accounts,
