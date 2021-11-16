@@ -9,7 +9,7 @@ module.exports = {
     development: {
       host: '127.0.0.1',
       port: 7548,
-      network_id: '5780',
+      network_id: '5781',
     },
     // test: {
     //   host: '127.0.0.1',

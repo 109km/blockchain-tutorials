@@ -4,7 +4,6 @@ contract Purchase {
     uint public value;
     address payable public seller;
     address payable public buyer;
-
     enum State { Created, Locked, Release, Inactive }
     // The state variable has a default value of the first member, `State.created`
     State public state;
@@ -54,6 +53,10 @@ contract Purchase {
         value = msg.value / 2;
         if ((2 * value) != msg.value)
             revert ValueNotEven();
+    }
+
+    function getValue() public view returns (uint) {
+        return value;
     }
 
     /// Abort the purchase and reclaim the ether.
