@@ -1,4 +1,5 @@
 $(function () {
+  const CURRENT_CONTRACT_ADDRESS = '0xd6cF448f4870A4797F27e1Ea3c6E414e6D38A3a4'
   const App = {
     web3Provider: null,
     contracts: {},
@@ -28,7 +29,11 @@ $(function () {
 
     bindEvents: () => {
       $(document).on('click', '#btn-confirm', App.handleConfirm)
+      $(document).on('click', '#btn-receive', App.handleReceive)
+
       $(document).on('click', '#btn-sell', App.handleSell)
+      $(document).on('click', '#btn-abort', App.handleAbort)
+      $(document).on('click', '#btn-refund', App.handleRefund)
     },
     handleSell: async () => {
       const instance = await App.contracts.Purchase.contract.new({
@@ -37,16 +42,42 @@ $(function () {
       })
       App.contracts.Purchase.instance = instance
     },
+    handleAbort: async (e) => {
+      e.preventDefault()
+      const purchaseInstance = await App.contracts.Purchase.contract.at(
+        CURRENT_CONTRACT_ADDRESS,
+      )
+      const tx = await purchaseInstance.abort({ from: App.owner })
+      console.log('handleAbort:', tx)
+    },
+    handleRefund: async (e) => {
+      e.preventDefault()
+      const purchaseInstance = await App.contracts.Purchase.contract.at(
+        CURRENT_CONTRACT_ADDRESS,
+      )
+      const tx = await purchaseInstance.refundSeller({ from: App.owner })
+      console.log('handleRefund:', tx)
+    },
     handleConfirm: async (e) => {
       e.preventDefault()
-      const purchaseInstance = await App.contracts.Purchase.contract.deployed()
-
-      console.log(purchaseInstance)
+      const purchaseInstance = await App.contracts.Purchase.contract.at(
+        CURRENT_CONTRACT_ADDRESS,
+      )
       const tx = await purchaseInstance.confirmPurchase({
         from: App.owner,
-        value: 2e18,
+        value: 1e18,
       })
-      console.log(tx)
+      console.log('handleConfirm:', tx)
+    },
+    handleReceive: async (e) => {
+      e.preventDefault()
+      const purchaseInstance = await App.contracts.Purchase.contract.at(
+        CURRENT_CONTRACT_ADDRESS,
+      )
+      const tx = await purchaseInstance.confirmReceived({
+        from: App.owner,
+      })
+      console.log('handleReceive:', tx)
     },
   }
   App.init()
