@@ -1,5 +1,5 @@
 $(function () {
-  const CURRENT_CONTRACT_ADDRESS = '0xd6cF448f4870A4797F27e1Ea3c6E414e6D38A3a4'
+  const CURRENT_CONTRACT_ADDRESS = '0xF3A93C68ef00Ad267a304071F53aaB72c80012cf'
   const App = {
     web3Provider: null,
     contracts: {},
@@ -65,9 +65,8 @@ $(function () {
       )
       const tx = await purchaseInstance.confirmPurchase({
         from: App.owner,
-        value: 1e18,
+        value: 2e18,
       })
-      console.log('handleConfirm:', tx)
     },
     handleReceive: async (e) => {
       e.preventDefault()

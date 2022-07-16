@@ -122,4 +122,11 @@ contract Purchase {
 
         seller.transfer(3 * value);
     }
+
+    function paySeller()
+        external
+        
+    {
+
+    }
 }
